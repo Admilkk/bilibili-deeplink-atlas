@@ -1,0 +1,136 @@
+{
+  "total_rows": 1501,
+  "unique_routes": 1491,
+  "route_type_counts": {
+    "native": 1320,
+    "unknown": 101,
+    "web": 80
+  },
+  "scheme_counts": {
+    "activity": 240,
+    "bilibili": 988,
+    "http(s)": 273
+  },
+  "top_prefixes": [
+    {
+      "prefix": "(http|https)",
+      "count": 265
+    },
+    {
+      "prefix": "uper",
+      "count": 171
+    },
+    {
+      "prefix": "mall",
+      "count": 100
+    },
+    {
+      "prefix": "game_center",
+      "count": 86
+    },
+    {
+      "prefix": "main",
+      "count": 84
+    },
+    {
+      "prefix": "following",
+      "count": 79
+    },
+    {
+      "prefix": "smallapp",
+      "count": 53
+    },
+    {
+      "prefix": "im",
+      "count": 51
+    },
+    {
+      "prefix": "pgc",
+      "count": 47
+    },
+    {
+      "prefix": "live",
+      "count": 42
+    },
+    {
+      "prefix": "user_center",
+      "count": 31
+    },
+    {
+      "prefix": "space",
+      "count": 30
+    },
+    {
+      "prefix": "auth",
+      "count": 27
+    },
+    {
+      "prefix": "campus",
+      "count": 27
+    },
+    {
+      "prefix": "pegasus",
+      "count": 23
+    },
+    {
+      "prefix": "ad",
+      "count": 21
+    },
+    {
+      "prefix": "music",
+      "count": 19
+    },
+    {
+      "prefix": "bangumi",
+      "count": 18
+    },
+    {
+      "prefix": "login",
+      "count": 15
+    },
+    {
+      "prefix": "upper",
+      "count": 15
+    },
+    {
+      "prefix": "article",
+      "count": 13
+    },
+    {
+      "prefix": "link",
+      "count": 12
+    },
+    {
+      "prefix": "debugger",
+      "count": 10
+    },
+    {
+      "prefix": "search",
+      "count": 9
+    },
+    {
+      "prefix": "comment2",
+      "count": 8
+    },
+    {
+      "prefix": "digital",
+      "count": 8
+    },
+    {
+      "prefix": "search-result",
+      "count": 8
+    },
+    {
+      "prefix": "topic",
+      "count": 8
+    },
+    {
+      "prefix": "comment3",
+      "count": 7
+    },
+    {
+      "prefix": "podcast",
+      "count": 7
+    }
+  ]
+}
