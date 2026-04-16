@@ -1,559 +1,612 @@
-# ???smallapp
+# 前缀：smallapp
 
-?????? `smallapp` ???? bilibili ?? ?????????????????????????
+本页收录前缀 `smallapp` 下的全部 bilibili 协议 路由，主要对应“小程序”相关页面、容器或业务入口。
 
-- ??????`53`
-- ???????`{'native': 14, 'unknown': 39}`
+- 唯一路由数：`53`
+- 路由类型统计：`{'native': 14, 'unknown': 39}`
 
-## ????
+## 路由条目
 
 ### `bilibili://smallapp/animApplet`
 
-- ???`unknown`
-- ?????????????????????? / animApplet??????????????? ????
-- ?????`bilibili://smallapp/animApplet/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1567`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / animApplet”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/animApplet/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1567`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/animApplet/**`
 
-- ???`unknown`
-- ?????????????????????? / animApplet / ???????????????????? ????
-- ?????`bilibili://smallapp/animApplet`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1571`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / animApplet / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/animApplet`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1571`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/applet`
 
-- ???`unknown`
-- ?????????????????????? / applet??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1280`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1280`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/applet/**`
 
-- ???`unknown`
-- ?????????????????????? / applet / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1284`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1284`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/applet/debug`
 
-- ???`unknown`
-- ?????????????????????? / applet / debug??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1288`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / debug”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1288`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/applet/debug/**`
 
-- ???`unknown`
-- ?????????????????????? / applet / debug / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1292`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / debug / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1292`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/applet/settings`
 
-- ???`unknown`
-- ?????????????????????? / applet / ????????????????? ????
-- ?????`bilibili://smallapp/applet/settings/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:947`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / 设置”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/applet/settings/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:947`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/applet/settings/**`
 
-- ???`unknown`
-- ?????????????????????? / applet / ?? / ???????????????????? ????
-- ?????`bilibili://smallapp/applet/settings`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:951`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / 设置 / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/applet/settings`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:951`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/applet/{small_app_clientId}/about`
 
-- ???`unknown`
-- ?????????????????????? / applet / small_app_clientId ?? / about??????????????? ????
-- ?????`bilibili://smallapp/game/{small_app_clientId}/about`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:718`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / small_app_clientId 参数 / about”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/{small_app_clientId}/about`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:718`
 
-?????
-- `small_app_clientId`???????????????????????????
+**参数说明**
+
+- `small_app_clientId`：该路由使用的路径参数，需结合业务上下文判定具体取值。
 
 ### `bilibili://smallapp/applet/{small_app_clientId}/company`
 
-- ???`unknown`
-- ?????????????????????? / applet / small_app_clientId ?? / company??????????????? ????
-- ?????`bilibili://smallapp/browser`?`bilibili://smallapp/game/{small_app_clientId}/company`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1025`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / applet / small_app_clientId 参数 / company”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/browser`、`bilibili://smallapp/game/{small_app_clientId}/company`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1025`
 
-?????
-- `small_app_clientId`???????????????????????????
+**参数说明**
+
+- `small_app_clientId`：该路由使用的路径参数，需结合业务上下文判定具体取值。
 
 ### `bilibili://smallapp/appletx`
 
-- ???`unknown`
-- ?????????????????????? / appletx??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1472`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / appletx”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1472`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/appletx/**`
 
-- ???`unknown`
-- ?????????????????????? / appletx / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1476`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / appletx / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1476`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/appletx/debug`
 
-- ???`unknown`
-- ?????????????????????? / appletx / debug??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1480`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / appletx / debug”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1480`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/appletx/debug/**`
 
-- ???`unknown`
-- ?????????????????????? / appletx / debug / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1484`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / appletx / debug / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1484`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/browser`
 
-- ???`unknown`
-- ?????????????????????? / ?????????????????? ????
-- ?????`bilibili://smallapp/applet/{small_app_clientId}/company`?`bilibili://smallapp/game/{small_app_clientId}/company`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1021`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / 浏览器”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/applet/{small_app_clientId}/company`、`bilibili://smallapp/game/{small_app_clientId}/company`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1021`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/game`
 
-- ???`unknown`
-- ?????????????????????? / game??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1320`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1320`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/game/**`
 
-- ???`unknown`
-- ?????????????????????? / game / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1324`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1324`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/game/debug`
 
-- ???`unknown`
-- ?????????????????????? / game / debug??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1328`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / debug”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1328`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/game/debug/**`
 
-- ???`unknown`
-- ?????????????????????? / game / debug / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1332`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / debug / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1332`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/game/remove`
 
-- ???`unknown`
-- ?????????????????????? / game / remove??????????????? ????
-- ?????`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1272`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / remove”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1272`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/game/remove/**`
 
-- ???`unknown`
-- ?????????????????????? / game / remove / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1276`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / remove / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1276`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/game/{small_app_clientId}/about`
 
-- ???`unknown`
-- ?????????????????????? / game / small_app_clientId ?? / about??????????????? ????
-- ?????`bilibili://smallapp/applet/{small_app_clientId}/about`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:734`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / small_app_clientId 参数 / about”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/applet/{small_app_clientId}/about`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:734`
 
-?????
-- `small_app_clientId`???????????????????????????
+**参数说明**
+
+- `small_app_clientId`：该路由使用的路径参数，需结合业务上下文判定具体取值。
 
 ### `bilibili://smallapp/game/{small_app_clientId}/company`
 
-- ???`unknown`
-- ?????????????????????? / game / small_app_clientId ?? / company??????????????? ????
-- ?????`bilibili://smallapp/browser`?`bilibili://smallapp/applet/{small_app_clientId}/company`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1037`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / small_app_clientId 参数 / company”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/browser`、`bilibili://smallapp/applet/{small_app_clientId}/company`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1037`
 
-?????
-- `small_app_clientId`???????????????????????????
+**参数说明**
+
+- `small_app_clientId`：该路由使用的路径参数，需结合业务上下文判定具体取值。
 
 ### `bilibili://smallapp/game/{small_app_clientId}/subscribe`
 
-- ???`unknown`
-- ?????????????????????? / game / small_app_clientId ?? / subscribe??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:877`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / game / small_app_clientId 参数 / subscribe”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:877`
 
-?????
-- `small_app_clientId`???????????????????????????
+**参数说明**
+
+- `small_app_clientId`：该路由使用的路径参数，需结合业务上下文判定具体取值。
 
 ### `bilibili://smallapp/minigame/about`
 
-- ???`native`
-- ?????????????????????? / minigame / about??????????????? ???
-- ?????`bilibili://smallapp/minigame/about/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:435`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / about”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/about/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:435`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/minigame/about/**`
 
-- ???`native`
-- ?????????????????????? / minigame / about / ???????????????????? ???
-- ?????`bilibili://smallapp/minigame/about`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:439`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / about / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/about`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:439`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/minigame/settings`
 
-- ???`native`
-- ?????????????????????? / minigame / ????????????????? ???
-- ?????`bilibili://smallapp/minigame/settings/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:513`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / 设置”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/settings/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:513`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/minigame/settings/**`
 
-- ???`native`
-- ?????????????????????? / minigame / ?? / ???????????????????? ???
-- ?????`bilibili://smallapp/minigame/settings`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:517`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / 设置 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/settings`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:517`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/minigame/web`
 
-- ???`native`
-- ?????????????????????? / minigame / ????????????????? ???
-- ?????`bilibili://smallapp/minigame/web/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:354`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / 网页”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/web/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:354`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/minigame/web/**`
 
-- ???`native`
-- ?????????????????????? / minigame / ?? / ???????????????????? ???
-- ?????`bilibili://smallapp/minigame/web`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:358`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigame / 网页 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/minigame/web`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:358`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/minigameSlot`
 
-- ???`unknown`
-- ?????????????????????? / minigameSlot??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:645`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / minigameSlot”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:645`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/playable`
 
-- ???`unknown`
-- ?????????????????????? / playable??????????????? ????
-- ?????`bilibili://smallapp/playable/**`?`bilibili://smallapp/playable/debug`?`bilibili://smallapp/playable/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:677`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / playable”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/playable/**`、`bilibili://smallapp/playable/debug`、`bilibili://smallapp/playable/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:677`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/playable/**`
 
-- ???`unknown`
-- ?????????????????????? / playable / ???????????????????? ????
-- ?????`bilibili://smallapp/playable`?`bilibili://smallapp/playable/debug`?`bilibili://smallapp/playable/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:681`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / playable / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/playable`、`bilibili://smallapp/playable/debug`、`bilibili://smallapp/playable/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:681`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/playable/debug`
 
-- ???`unknown`
-- ?????????????????????? / playable / debug??????????????? ????
-- ?????`bilibili://smallapp/playable`?`bilibili://smallapp/playable/**`?`bilibili://smallapp/playable/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:685`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / playable / debug”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/playable`、`bilibili://smallapp/playable/**`、`bilibili://smallapp/playable/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:685`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/playable/debug/**`
 
-- ???`unknown`
-- ?????????????????????? / playable / debug / ???????????????????? ????
-- ?????`bilibili://smallapp/playable`?`bilibili://smallapp/playable/**`?`bilibili://smallapp/playable/debug`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:689`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / playable / debug / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/playable`、`bilibili://smallapp/playable/**`、`bilibili://smallapp/playable/debug`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:689`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/redirectTo`
 
-- ???`unknown`
-- ?????????????????????? / redirectTo??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:596`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / redirectTo”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hk.smali:596`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/sidebariaa`
 
-- ???`unknown`
-- ?????????????????????? / sidebariaa??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:580`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / sidebariaa”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:580`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/test/setting/manager`
 
-- ???`native`
-- ?????????????????????? / test / ?? / manager??????????????? ???
-- ?????`bilibili://smallapp/test/setting/manager/deviceinfo`?`bilibili://smallapp/test/setting/manager/deviceinfo/**`?`bilibili://smallapp/test/setting/manager/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:423`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / 设置 / manager”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/test/setting/manager/deviceinfo`、`bilibili://smallapp/test/setting/manager/deviceinfo/**`、`bilibili://smallapp/test/setting/manager/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:423`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/test/setting/manager/**`
 
-- ???`native`
-- ?????????????????????? / test / ?? / manager / ???????????????????? ???
-- ?????`bilibili://smallapp/test/setting/manager/deviceinfo`?`bilibili://smallapp/test/setting/manager/deviceinfo/**`?`bilibili://smallapp/test/setting/manager`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:427`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / 设置 / manager / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/test/setting/manager/deviceinfo`、`bilibili://smallapp/test/setting/manager/deviceinfo/**`、`bilibili://smallapp/test/setting/manager`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:427`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/test/setting/manager/deviceinfo`
 
-- ???`native`
-- ?????????????????????? / test / ?? / manager / deviceinfo??????????????? ???
-- ?????`bilibili://smallapp/test/setting/manager/deviceinfo/**`?`bilibili://smallapp/test/setting/manager`?`bilibili://smallapp/test/setting/manager/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:415`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / 设置 / manager / deviceinfo”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/test/setting/manager/deviceinfo/**`、`bilibili://smallapp/test/setting/manager`、`bilibili://smallapp/test/setting/manager/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:415`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/test/setting/manager/deviceinfo/**`
 
-- ???`native`
-- ?????????????????????? / test / ?? / manager / deviceinfo / ???????????????????? ???
-- ?????`bilibili://smallapp/test/setting/manager/deviceinfo`?`bilibili://smallapp/test/setting/manager`?`bilibili://smallapp/test/setting/manager/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:419`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / 设置 / manager / deviceinfo / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/test/setting/manager/deviceinfo`、`bilibili://smallapp/test/setting/manager`、`bilibili://smallapp/test/setting/manager/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:419`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/test/widget/demo`
 
-- ???`native`
-- ?????????????????????? / test / widget / demo??????????????? ???
-- ?????`bilibili://smallapp/widget/preview`?`bilibili://smallapp/widget/preview/**`?`bilibili://smallapp/test/widget/demo/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:808`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / widget / demo”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/widget/preview`、`bilibili://smallapp/widget/preview/**`、`bilibili://smallapp/test/widget/demo/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:808`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/test/widget/demo/**`
 
-- ???`native`
-- ?????????????????????? / test / widget / demo / ???????????????????? ???
-- ?????`bilibili://smallapp/widget/preview`?`bilibili://smallapp/widget/preview/**`?`bilibili://smallapp/test/widget/demo`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:812`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / test / widget / demo / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/widget/preview`、`bilibili://smallapp/widget/preview/**`、`bilibili://smallapp/test/widget/demo`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:812`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/thirdappopen_redirect`
 
-- ???`unknown`
-- ?????????????????????? / thirdappopen redirect??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:511`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / thirdappopen redirect”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:511`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/tmguide`
 
-- ???`unknown`
-- ?????????????????????? / tmguide??????????????? ????
-- ????????????
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1637`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / tmguide”相关能力，当前静态标记类型为 未标注。
+- 关联入口：无公开同组别名
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1637`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/wallpaperPreCheck`
 
-- ???`unknown`
-- ?????????????????????? / wallpaperPreCheck??????????????? ????
-- ?????`bilibili://smallapp/wallpaperPreCheck/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1703`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / wallpaperPreCheck”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/wallpaperPreCheck/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1703`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/wallpaperPreCheck/**`
 
-- ???`unknown`
-- ?????????????????????? / wallpaperPreCheck / ???????????????????? ????
-- ?????`bilibili://smallapp/wallpaperPreCheck`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1707`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / wallpaperPreCheck / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/wallpaperPreCheck`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1707`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/widget`
 
-- ???`unknown`
-- ?????????????????????? / widget??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1360`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1360`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/widget/**`
 
-- ???`unknown`
-- ?????????????????????? / widget / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1364`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1364`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/widget/debug`
 
-- ???`unknown`
-- ?????????????????????? / widget / debug??????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug/**`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1368`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget / debug”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug/**`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1368`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/widget/debug/**`
 
-- ???`unknown`
-- ?????????????????????? / widget / debug / ???????????????????? ????
-- ?????`bilibili://smallapp/game/remove`?`bilibili://smallapp/game/remove/**`?`bilibili://smallapp/applet`?`bilibili://smallapp/applet/**`?`bilibili://smallapp/applet/debug`?`bilibili://smallapp/applet/debug/**`?`bilibili://smallapp/game`?`bilibili://smallapp/game/**`?`bilibili://smallapp/game/debug`?`bilibili://smallapp/game/debug/**`?`bilibili://smallapp/widget`?`bilibili://smallapp/widget/**`?`bilibili://smallapp/widget/debug`?`bilibili://smallapp/appletx`?`bilibili://smallapp/appletx/**`?`bilibili://smallapp/appletx/debug`?`bilibili://smallapp/appletx/debug/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1372`
+- 类型：`unknown`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget / debug / 后续子路径”相关能力，当前静态标记类型为 未标注。
+- 关联入口：`bilibili://smallapp/game/remove`、`bilibili://smallapp/game/remove/**`、`bilibili://smallapp/applet`、`bilibili://smallapp/applet/**`、`bilibili://smallapp/applet/debug`、`bilibili://smallapp/applet/debug/**`、`bilibili://smallapp/game`、`bilibili://smallapp/game/**`、`bilibili://smallapp/game/debug`、`bilibili://smallapp/game/debug/**`、`bilibili://smallapp/widget`、`bilibili://smallapp/widget/**`、`bilibili://smallapp/widget/debug`、`bilibili://smallapp/appletx`、`bilibili://smallapp/appletx/**`、`bilibili://smallapp/appletx/debug`、`bilibili://smallapp/appletx/debug/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:1372`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
 
 ### `bilibili://smallapp/widget/preview`
 
-- ???`native`
-- ?????????????????????? / widget / preview??????????????? ???
-- ?????`bilibili://smallapp/widget/preview/**`?`bilibili://smallapp/test/widget/demo`?`bilibili://smallapp/test/widget/demo/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:800`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget / preview”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/widget/preview/**`、`bilibili://smallapp/test/widget/demo`、`bilibili://smallapp/test/widget/demo/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:800`
 
-?????
-- ????????
+**参数说明**
+
+- 无显式路径参数。
 
 ### `bilibili://smallapp/widget/preview/**`
 
-- ???`native`
-- ?????????????????????? / widget / preview / ???????????????????? ???
-- ?????`bilibili://smallapp/widget/preview`?`bilibili://smallapp/test/widget/demo`?`bilibili://smallapp/test/widget/demo/**`
-- ???`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:804`
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“小程序 / widget / preview / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://smallapp/widget/preview`、`bilibili://smallapp/test/widget/demo`、`bilibili://smallapp/test/widget/demo/**`
+- 来源：`apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/kk0.smali:804`
 
-?????
-- ????????
-- `**`??????????????????
+**参数说明**
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。

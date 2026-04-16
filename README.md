@@ -2,14 +2,14 @@
 
 从哔哩哔哩 Android 客户端路由表中静态提取出的 deeplink 索引。
 
-## 文档导航
+## 快速入口
 
 - [文档总览](./docs/index.md)
 - [路由关系说明](./docs/route-relations.md)
 - [`browser` 与通用 `web` 路由专题](./docs/browser-web.md)
 - [前缀索引](./docs/prefix-index.md)
 
-## 当前快照
+## 概览
 
 - 唯一路由模式数：`1226`
 - 提取出的路由行数：`1228`
@@ -21,24 +21,21 @@
   - `web`：`24`
   - `unknown`：`39`
 
-## 范围
+## 收录范围
 
 - 当前纳入的路由 scheme：
   - `bilibili://`
   - `activity://`
 
-## 文件说明
+## 文档结构
 
-- `data/routes.json`：完整路由列表，含别名组和源码位置
-- `data/routes.csv`：便于筛选和表格查看的导出
-- `data/summary.json`：聚合统计结果
-- `docs/index.md`：文档入口与阅读顺序
-- `docs/route-relations.md`：路由别名、前缀和类型之间的关系说明
-- `docs/prefix-index.md`：按前缀拆分后的总索引
-- `docs/prefixes/*.md`：每个前缀下的逐条路由说明文档
-- `docs/browser-web.md`：`bilibili://browser` 与通用 web 路由专题
+- [docs/index.md](./docs/index.md)：手册首页与阅读顺序
+- [docs/prefix-index.md](./docs/prefix-index.md)：按前缀浏览全部路由
+- `docs/prefixes/*.md`：每个前缀下的逐条路由说明、参数说明与关联入口
+- [docs/route-relations.md](./docs/route-relations.md)：别名、前缀和类型关系
+- [docs/browser-web.md](./docs/browser-web.md)：`browser/main/web` 专题
 
-## 重点说明
+## 重点专题
 
 - `bilibili://browser` 与 `activity://main/web` 映射到同一条 `web` 路由。
 - `MWebActivity` 与 `WebFragment` 实际消费的目标 URL 字段是 `url`。
