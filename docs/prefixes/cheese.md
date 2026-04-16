@@ -1,14 +1,15 @@
-# 前缀：cheese
+﻿# ???cheese
 
-- 唯一路由数：`5`
-- 路由类型统计：`{'native': 4, 'web': 1}`
+- ??????`5`
+- ???????`{'native': 4, 'web': 1}`
+- ??????? cheese ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://cheese/pay` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ra.smali:159` |
-| `bilibili://cheese/pay-guide` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ra.smali:235` |
-| `bilibili://cheese/season/ep/{epid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/vx.smali:397` |
-| `bilibili://cheese/season/{season_id}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/vx.smali:393` |
-| `bilibili://cheese/web` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ln.smali:3575` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://cheese/pay` | `native` | ????????????cheese / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ra.smali:159` |
+| `bilibili://cheese/pay-guide` | `native` | ????????????cheese / pay guide????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ra.smali:235` |
+| `bilibili://cheese/season/ep/{epid}` | `native` | ????????????cheese / season / ep / epid ??????????? | ?????epid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/vx.smali:397` |
+| `bilibili://cheese/season/{season_id}` | `native` | ????????????cheese / season / season_id ??????????? | ?????season_id | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/vx.smali:393` |
+| `bilibili://cheese/web` | `web` | ????????????cheese / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ln.smali:3575` |

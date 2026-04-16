@@ -1,23 +1,24 @@
-# 前缀：login
+﻿# ???login
 
-- 唯一路由数：`14`
-- 路由类型统计：`{'native': 14}`
+- ??????`14`
+- ???????`{'native': 14}`
+- ??????? ?? ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://login` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:627` |
-| `bilibili://login/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:631` |
-| `bilibili://login/fast` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:926` |
-| `bilibili://login/fullscreen` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1056` |
-| `bilibili://login/fullscreen/countrycode/select` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:991` |
-| `bilibili://login/inner` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1121` |
-| `bilibili://login/origin` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:717` |
-| `bilibili://login/overseas_force` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1251` |
-| `bilibili://login/quick` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1318` |
-| `bilibili://login/quick/bottomsheet` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1385` |
-| `bilibili://login/select_country_code` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1186` |
-| `bilibili://login/step_by_step/bottom_sheet` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1586` |
-| `bilibili://login/step_by_step/sms` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1652` |
-| `bilibili://login/switch` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:847` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://login` | `native` | ??????????????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:627` |
+| `bilibili://login/**` | `native` | ?????????????? / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:631` |
+| `bilibili://login/fast` | `native` | ?????????????? / fast????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:926` |
+| `bilibili://login/fullscreen` | `native` | ?????????????? / fullscreen????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1056` |
+| `bilibili://login/fullscreen/countrycode/select` | `native` | ?????????????? / fullscreen / countrycode / select????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:991` |
+| `bilibili://login/inner` | `native` | ?????????????? / inner????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1121` |
+| `bilibili://login/origin` | `native` | ?????????????? / origin????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:717` |
+| `bilibili://login/overseas_force` | `native` | ?????????????? / overseas force????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1251` |
+| `bilibili://login/quick` | `native` | ?????????????? / quick????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1318` |
+| `bilibili://login/quick/bottomsheet` | `native` | ?????????????? / quick / bottomsheet????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1385` |
+| `bilibili://login/select_country_code` | `native` | ?????????????? / select country code????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1186` |
+| `bilibili://login/step_by_step/bottom_sheet` | `native` | ?????????????? / step by step / bottom sheet????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1586` |
+| `bilibili://login/step_by_step/sms` | `native` | ?????????????? / step by step / sms????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:1652` |
+| `bilibili://login/switch` | `native` | ?????????????? / switch????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/j1.smali:847` |

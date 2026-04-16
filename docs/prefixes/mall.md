@@ -1,107 +1,108 @@
-# 前缀：mall
+﻿# ???mall
 
-- 唯一路由数：`98`
-- 路由类型统计：`{'native': 94, 'web': 4}`
+- ??????`98`
+- ???????`{'native': 94, 'web': 4}`
+- ??????? ??? ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://mall/action/redirect` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8988` |
-| `bilibili://mall/ad/half/webview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5674` |
-| `bilibili://mall/address/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:721` |
-| `bilibili://mall/ar/qrcode/scan` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:652` |
-| `bilibili://mall/blind/box/result` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6930` |
-| `bilibili://mall/buyer/edit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:412` |
-| `bilibili://mall/buyer/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:490` |
-| `bilibili://mall/cart` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:834` |
-| `bilibili://mall/category` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:926` |
-| `bilibili://mall/category/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:1030` |
-| `bilibili://mall/comment/fullscreen` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5594` |
-| `bilibili://mall/comment/gallery` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8821` |
-| `bilibili://mall/comment/v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8501` |
-| `bilibili://mall/compose/product_details_page` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7415` |
-| `bilibili://mall/container` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5295` |
-| `bilibili://mall/container/{page}` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5299` |
-| `bilibili://mall/coursedetail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5832` |
-| `bilibili://mall/dialog/videoCallComing` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7732` |
-| `bilibili://mall/dialog/videoRecover` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7812` |
-| `bilibili://mall/dynamic/mine` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6056` |
-| `bilibili://mall/favorite/goods` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5452` |
-| `bilibili://mall/favorite/ticket` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5456` |
-| `bilibili://mall/favorite/workshop` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5527` |
-| `bilibili://mall/firstlook/subscribedList` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7335` |
-| `bilibili://mall/history/find_similar` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6293` |
-| `bilibili://mall/history/goods` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6222` |
-| `bilibili://mall/history/search/goods` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6214` |
-| `bilibili://mall/history/search/ticket` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6218` |
-| `bilibili://mall/history/ticket` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6226` |
-| `bilibili://mall/home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4748` |
-| `bilibili://mall/home-main` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4744` |
-| `bilibili://mall/homepage` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:34` |
-| `bilibili://mall/ip/fans` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6611` |
-| `bilibili://mall/ip/home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6532` |
-| `bilibili://mall/ip/home/role` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6372` |
-| `bilibili://mall/ip/home/story` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6452` |
-| `bilibili://mall/live/playback` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8422` |
-| `bilibili://mall/magic/share` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6851` |
-| `bilibili://mall/media/imageSelector` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8580` |
-| `bilibili://mall/media/takePhoto` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8905` |
-| `bilibili://mall/media/takePicture` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8659` |
-| `bilibili://mall/media/watchPicture` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8738` |
-| `bilibili://mall/mine` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7010` |
-| `bilibili://mall/nestedContainer` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5753` |
-| `bilibili://mall/new/arrivals` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7090` |
-| `bilibili://mall/newdate` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7173` |
-| `bilibili://mall/newdate/trailer` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7256` |
-| `bilibili://mall/opusPublish` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8277` |
-| `bilibili://mall/opusdetail/{oid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5911` |
-| `bilibili://mall/order/checklist` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:421` |
-| `bilibili://mall/order/confirmpresale` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:343` |
-| `bilibili://mall/order/create` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:339` |
-| `bilibili://mall/order/cross/store/dialog` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1316` |
-| `bilibili://mall/order/deliveryInfo/{orderId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:592` |
-| `bilibili://mall/order/detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:504` |
-| `bilibili://mall/order/detail/{orderId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:508` |
-| `bilibili://mall/order/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:675` |
-| `bilibili://mall/order/list/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1483` |
-| `bilibili://mall/order/list/searchResult` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:759` |
-| `bilibili://mall/order/multiPackage/{orderId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1403` |
-| `bilibili://mall/peripherals` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8038` |
-| `bilibili://mall/picture/magic` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6771` |
-| `bilibili://mall/picture/magic/pic_edit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6691` |
-| `bilibili://mall/picture/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:648` |
-| `bilibili://mall/qrcode/detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7573` |
-| `bilibili://mall/qrcode/scan` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7494` |
-| `bilibili://mall/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4832` |
-| `bilibili://mall/shop/detail/{shopId}` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4906` |
-| `bilibili://mall/shop/home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7972` |
-| `bilibili://mall/smallshop` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8356` |
-| `bilibili://mall/story` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6135` |
-| `bilibili://mall/submit/addaddress` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:875` |
-| `bilibili://mall/submit/address` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:955` |
-| `bilibili://mall/submit/buyer` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:1109` |
-| `bilibili://mall/submit/coupon` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1001` |
-| `bilibili://mall/submit/invalid` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1236` |
-| `bilibili://mall/submit/leavemsg` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1081` |
-| `bilibili://mall/submit/seckill` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1156` |
-| `bilibili://mall/tab3/diy` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:181` |
-| `bilibili://mall/tab3/diy/bottom` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:107` |
-| `bilibili://mall/tab3/draw` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:334` |
-| `bilibili://mall/tab3/draw/bottom` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:260` |
-| `bilibili://mall/tab3/hyg` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:413` |
-| `bilibili://mall/tab3/operation` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:488` |
-| `bilibili://mall/tab3/operation/web` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5216` |
-| `bilibili://mall/tab3/recommend` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:567` |
-| `bilibili://mall/takephoto` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:565` |
-| `bilibili://mall/ticket/alertdetail/{screenId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4986` |
-| `bilibili://mall/ticket/donation/{screenId\uff0cticketId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5061` |
-| `bilibili://mall/ticket/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5141` |
-| `bilibili://mall/vd/half/webview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5373` |
-| `bilibili://mall/videocall/buyer` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7652` |
-| `bilibili://mall/videocall/seller` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7892` |
-| `bilibili://mall/videodetail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/u8.smali:164` |
-| `bilibili://mall/wallpaper/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8118` |
-| `bilibili://mall/wallpaper/preview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8198` |
-| `bilibili://mall/web` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4613` |
-| `bilibili://mall/webdialog` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:801` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://mall/action/redirect` | `native` | ??????????????? / action / redirect????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8988` |
+| `bilibili://mall/ad/half/webview` | `native` | ??????????????? / ?? / half / webview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5674` |
+| `bilibili://mall/address/list` | `native` | ??????????????? / address / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:721` |
+| `bilibili://mall/ar/qrcode/scan` | `native` | ??????????????? / ar / ??? / scan????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:652` |
+| `bilibili://mall/blind/box/result` | `native` | ??????????????? / blind / box / result????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6930` |
+| `bilibili://mall/buyer/edit` | `native` | ??????????????? / buyer / edit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:412` |
+| `bilibili://mall/buyer/list` | `native` | ??????????????? / buyer / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:490` |
+| `bilibili://mall/cart` | `native` | ??????????????? / cart????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:834` |
+| `bilibili://mall/category` | `native` | ??????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:926` |
+| `bilibili://mall/category/list` | `native` | ??????????????? / ?? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:1030` |
+| `bilibili://mall/comment/fullscreen` | `native` | ??????????????? / ?? / fullscreen????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5594` |
+| `bilibili://mall/comment/gallery` | `native` | ??????????????? / ?? / gallery????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8821` |
+| `bilibili://mall/comment/v2` | `native` | ??????????????? / ?? / v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8501` |
+| `bilibili://mall/compose/product_details_page` | `native` | ??????????????? / compose / product details page????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7415` |
+| `bilibili://mall/container` | `web` | ??????????????? / container????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5295` |
+| `bilibili://mall/container/{page}` | `web` | ??????????????? / container / page ??????????? | ?????page | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5299` |
+| `bilibili://mall/coursedetail` | `native` | ??????????????? / coursedetail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5832` |
+| `bilibili://mall/dialog/videoCallComing` | `native` | ??????????????? / dialog / videoCallComing????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7732` |
+| `bilibili://mall/dialog/videoRecover` | `native` | ??????????????? / dialog / videoRecover????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7812` |
+| `bilibili://mall/dynamic/mine` | `native` | ??????????????? / dynamic / mine????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6056` |
+| `bilibili://mall/favorite/goods` | `native` | ??????????????? / ?? / goods????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5452` |
+| `bilibili://mall/favorite/ticket` | `native` | ??????????????? / ?? / ticket????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5456` |
+| `bilibili://mall/favorite/workshop` | `native` | ??????????????? / ?? / workshop????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5527` |
+| `bilibili://mall/firstlook/subscribedList` | `native` | ??????????????? / firstlook / subscribedList????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7335` |
+| `bilibili://mall/history/find_similar` | `native` | ??????????????? / ???? / find similar????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6293` |
+| `bilibili://mall/history/goods` | `native` | ??????????????? / ???? / goods????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6222` |
+| `bilibili://mall/history/search/goods` | `native` | ??????????????? / ???? / ?? / goods????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6214` |
+| `bilibili://mall/history/search/ticket` | `native` | ??????????????? / ???? / ?? / ticket????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6218` |
+| `bilibili://mall/history/ticket` | `native` | ??????????????? / ???? / ticket????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6226` |
+| `bilibili://mall/home` | `native` | ??????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4748` |
+| `bilibili://mall/home-main` | `native` | ??????????????? / home main????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4744` |
+| `bilibili://mall/homepage` | `native` | ??????????????? / homepage????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:34` |
+| `bilibili://mall/ip/fans` | `native` | ??????????????? / ip / fans????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6611` |
+| `bilibili://mall/ip/home` | `native` | ??????????????? / ip / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6532` |
+| `bilibili://mall/ip/home/role` | `native` | ??????????????? / ip / ?? / role????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6372` |
+| `bilibili://mall/ip/home/story` | `native` | ??????????????? / ip / ?? / ????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6452` |
+| `bilibili://mall/live/playback` | `native` | ??????????????? / ?? / playback????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8422` |
+| `bilibili://mall/magic/share` | `native` | ??????????????? / magic / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6851` |
+| `bilibili://mall/media/imageSelector` | `native` | ??????????????? / media / imageSelector????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8580` |
+| `bilibili://mall/media/takePhoto` | `native` | ??????????????? / media / takePhoto????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8905` |
+| `bilibili://mall/media/takePicture` | `native` | ??????????????? / media / takePicture????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8659` |
+| `bilibili://mall/media/watchPicture` | `native` | ??????????????? / media / watchPicture????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8738` |
+| `bilibili://mall/mine` | `native` | ??????????????? / mine????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7010` |
+| `bilibili://mall/nestedContainer` | `native` | ??????????????? / nestedContainer????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5753` |
+| `bilibili://mall/new/arrivals` | `native` | ??????????????? / new / arrivals????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7090` |
+| `bilibili://mall/newdate` | `native` | ??????????????? / newdate????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7173` |
+| `bilibili://mall/newdate/trailer` | `native` | ??????????????? / newdate / trailer????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7256` |
+| `bilibili://mall/opusPublish` | `native` | ??????????????? / opusPublish????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8277` |
+| `bilibili://mall/opusdetail/{oid}` | `native` | ??????????????? / opusdetail / oid ??????????? | ?????oid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5911` |
+| `bilibili://mall/order/checklist` | `native` | ??????????????? / order / checklist????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:421` |
+| `bilibili://mall/order/confirmpresale` | `native` | ??????????????? / order / confirmpresale????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:343` |
+| `bilibili://mall/order/create` | `native` | ??????????????? / order / create????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:339` |
+| `bilibili://mall/order/cross/store/dialog` | `native` | ??????????????? / order / cross / store / dialog????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1316` |
+| `bilibili://mall/order/deliveryInfo/{orderId}` | `native` | ??????????????? / order / deliveryInfo / orderId ??????????? | ?????orderId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:592` |
+| `bilibili://mall/order/detail` | `native` | ??????????????? / order / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:504` |
+| `bilibili://mall/order/detail/{orderId}` | `native` | ??????????????? / order / ?? / orderId ??????????? | ?????orderId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:508` |
+| `bilibili://mall/order/list` | `native` | ??????????????? / order / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:675` |
+| `bilibili://mall/order/list/search` | `native` | ??????????????? / order / ?? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1483` |
+| `bilibili://mall/order/list/searchResult` | `native` | ??????????????? / order / ?? / searchResult????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:759` |
+| `bilibili://mall/order/multiPackage/{orderId}` | `native` | ??????????????? / order / multiPackage / orderId ??????????? | ?????orderId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1403` |
+| `bilibili://mall/peripherals` | `native` | ??????????????? / peripherals????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8038` |
+| `bilibili://mall/picture/magic` | `native` | ??????????????? / picture / magic????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6771` |
+| `bilibili://mall/picture/magic/pic_edit` | `native` | ??????????????? / picture / magic / pic edit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6691` |
+| `bilibili://mall/picture/search` | `native` | ??????????????? / picture / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:648` |
+| `bilibili://mall/qrcode/detail` | `native` | ??????????????? / ??? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7573` |
+| `bilibili://mall/qrcode/scan` | `native` | ??????????????? / ??? / scan????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7494` |
+| `bilibili://mall/search` | `native` | ??????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4832` |
+| `bilibili://mall/shop/detail/{shopId}` | `web` | ??????????????? / shop / ?? / shopId ??????????? | ?????shopId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4906` |
+| `bilibili://mall/shop/home` | `native` | ??????????????? / shop / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7972` |
+| `bilibili://mall/smallshop` | `native` | ??????????????? / smallshop????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8356` |
+| `bilibili://mall/story` | `native` | ??????????????? / ????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:6135` |
+| `bilibili://mall/submit/addaddress` | `native` | ??????????????? / submit / addaddress????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:875` |
+| `bilibili://mall/submit/address` | `native` | ??????????????? / submit / address????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:955` |
+| `bilibili://mall/submit/buyer` | `native` | ??????????????? / submit / buyer????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:1109` |
+| `bilibili://mall/submit/coupon` | `native` | ??????????????? / submit / coupon????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1001` |
+| `bilibili://mall/submit/invalid` | `native` | ??????????????? / submit / invalid????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1236` |
+| `bilibili://mall/submit/leavemsg` | `native` | ??????????????? / submit / leavemsg????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1081` |
+| `bilibili://mall/submit/seckill` | `native` | ??????????????? / submit / seckill????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/hh0.smali:1156` |
+| `bilibili://mall/tab3/diy` | `native` | ??????????????? / tab3 / diy????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:181` |
+| `bilibili://mall/tab3/diy/bottom` | `native` | ??????????????? / tab3 / diy / bottom????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:107` |
+| `bilibili://mall/tab3/draw` | `native` | ??????????????? / tab3 / draw????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:334` |
+| `bilibili://mall/tab3/draw/bottom` | `native` | ??????????????? / tab3 / draw / bottom????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:260` |
+| `bilibili://mall/tab3/hyg` | `native` | ??????????????? / tab3 / hyg????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:413` |
+| `bilibili://mall/tab3/operation` | `native` | ??????????????? / tab3 / operation????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:488` |
+| `bilibili://mall/tab3/operation/web` | `native` | ??????????????? / tab3 / operation / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5216` |
+| `bilibili://mall/tab3/recommend` | `native` | ??????????????? / tab3 / recommend????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/f5.smali:567` |
+| `bilibili://mall/takephoto` | `native` | ??????????????? / takephoto????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:565` |
+| `bilibili://mall/ticket/alertdetail/{screenId}` | `native` | ??????????????? / ticket / alertdetail / screenId ??????????? | ?????screenId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4986` |
+| `bilibili://mall/ticket/donation/{screenId\uff0cticketId}` | `native` | ??????????????? / ticket / donation / screenId\uff0cticketId ??????????? | ?????screenId\uff0cticketId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5061` |
+| `bilibili://mall/ticket/list` | `native` | ??????????????? / ticket / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5141` |
+| `bilibili://mall/vd/half/webview` | `native` | ??????????????? / vd / half / webview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:5373` |
+| `bilibili://mall/videocall/buyer` | `native` | ??????????????? / videocall / buyer????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7652` |
+| `bilibili://mall/videocall/seller` | `native` | ??????????????? / videocall / seller????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:7892` |
+| `bilibili://mall/videodetail` | `native` | ??????????????? / videodetail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/u8.smali:164` |
+| `bilibili://mall/wallpaper/list` | `native` | ??????????????? / wallpaper / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8118` |
+| `bilibili://mall/wallpaper/preview` | `native` | ??????????????? / wallpaper / preview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:8198` |
+| `bilibili://mall/web` | `web` | ??????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mf0.smali:4613` |
+| `bilibili://mall/webdialog` | `native` | ??????????????? / webdialog????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/qi.smali:801` |

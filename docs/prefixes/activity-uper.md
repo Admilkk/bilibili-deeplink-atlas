@@ -1,133 +1,134 @@
-# 前缀：activity-uper
+﻿# ???activity-uper
 
-- 唯一路由数：`124`
-- 路由类型统计：`{'native': 124}`
+- ??????`124`
+- ???????`{'native': 124}`
+- ??????? UP ??? ???Activity ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `activity://uper/aggregated_problem` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5787` |
-| `activity://uper/aggregated_problem/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5789` |
-| `activity://uper/ai_story_album` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4195` |
-| `activity://uper/ai_story_album/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4197` |
-| `activity://uper/ai_story_create` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4021` |
-| `activity://uper/ai_story_gen` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4093` |
-| `activity://uper/ai_story_home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4235` |
-| `activity://uper/ai_story_home/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4231` |
-| `activity://uper/album` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3307` |
-| `activity://uper/album/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3309` |
-| `activity://uper/album_new` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4690` |
-| `activity://uper/album_new/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4692` |
-| `activity://uper/archive-entrance` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4277` |
-| `activity://uper/archive-entrance/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4279` |
-| `activity://uper/capture` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3342` |
-| `activity://uper/capture-v3` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3346` |
-| `activity://uper/capture-v3/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3348` |
-| `activity://uper/capture/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3344` |
-| `activity://uper/capture_preview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:509` |
-| `activity://uper/capture_preview/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:513` |
-| `activity://uper/change_video_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3269` |
-| `activity://uper/change_video_list/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3271` |
-| `activity://uper/choose_topic` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6083` |
-| `activity://uper/choose_topic/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6085` |
-| `activity://uper/collection/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5042` |
-| `activity://uper/collection/list/new` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5077` |
-| `activity://uper/collection/sort` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5185` |
-| `activity://uper/collection/sort/custom` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5221` |
-| `activity://uper/commercial_declare` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4482` |
-| `activity://uper/commercial_declare/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4484` |
-| `activity://uper/cover_editor` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5403` |
-| `activity://uper/cover_editor/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5405` |
-| `activity://uper/cover_multi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5547` |
-| `activity://uper/cover_multi/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5549` |
-| `activity://uper/cover_preview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5439` |
-| `activity://uper/cover_preview/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5441` |
-| `activity://uper/cover_setting` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5475` |
-| `activity://uper/cover_setting/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5477` |
-| `activity://uper/detail-collection` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5006` |
-| `activity://uper/detail-collection/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5008` |
-| `activity://uper/edit_cover` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3681` |
-| `activity://uper/edit_cover/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3683` |
-| `activity://uper/editor_home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:709` |
-| `activity://uper/editor_home/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:713` |
-| `activity://uper/editor_main` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:717` |
-| `activity://uper/editor_main/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:721` |
-| `activity://uper/homevc-v4` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6335` |
-| `activity://uper/international_cover_multi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5511` |
-| `activity://uper/international_cover_multi/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5513` |
-| `activity://uper/join-up` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5261` |
-| `activity://uper/join-up/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5257` |
-| `activity://uper/manuscript-edit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3494` |
-| `activity://uper/manuscript-edit-v5` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3490` |
-| `activity://uper/manuscript-edit-v5/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3492` |
-| `activity://uper/manuscript-edit/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3496` |
-| `activity://uper/manuscript-list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3791` |
-| `activity://uper/manuscript-list/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3793` |
-| `activity://uper/manuscript-up` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3535` |
-| `activity://uper/manuscript-up-v5` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3531` |
-| `activity://uper/manuscript-up-v5/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3533` |
-| `activity://uper/manuscript-up/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3537` |
-| `activity://uper/manuscript_search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3831` |
-| `activity://uper/manuscript_search/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3833` |
-| `activity://uper/manuscript_violation` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6011` |
-| `activity://uper/manuscript_violation/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6013` |
-| `activity://uper/material/choose` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4586` |
-| `activity://uper/material_preview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3382` |
-| `activity://uper/material_preview/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3384` |
-| `activity://uper/material_preview_v1` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3418` |
-| `activity://uper/material_preview_v1/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3420` |
-| `activity://uper/mood_daily_sign/transmit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4972` |
-| `activity://uper/new-collection` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5113` |
-| `activity://uper/new-collection/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5115` |
-| `activity://uper/partition-a-tag` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3875` |
-| `activity://uper/partition-a-tag-topic` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3871` |
-| `activity://uper/partition-a-tag-topic/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3873` |
-| `activity://uper/partition-a-tag/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3877` |
-| `activity://uper/partition-b-tag` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3867` |
-| `activity://uper/partition-b-tag/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3869` |
-| `activity://uper/partition-tag` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3879` |
-| `activity://uper/partition-tag-v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6047` |
-| `activity://uper/partition-tag-v2/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6049` |
-| `activity://uper/partition-tag-v3` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6119` |
-| `activity://uper/partition-tag-v3/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6121` |
-| `activity://uper/partition-tag/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3881` |
-| `activity://uper/problem` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5823` |
-| `activity://uper/problem/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5825` |
-| `activity://uper/problem_limit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5863` |
-| `activity://uper/problem_limit/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5859` |
-| `activity://uper/problem_music` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5939` |
-| `activity://uper/problem_music/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5935` |
-| `activity://uper/problem_transcode` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5977` |
-| `activity://uper/problem_transcode/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5973` |
-| `activity://uper/publish/add_goods` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4800` |
-| `activity://uper/publish/add_goods_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4834` |
-| `activity://uper/publish/edit_goods` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4868` |
-| `activity://uper/publish/edit_goods_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4902` |
-| `activity://uper/publish/transfer_danmu` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5333` |
-| `activity://uper/query_progress` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5901` |
-| `activity://uper/query_progress/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5897` |
-| `activity://uper/question` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6155` |
-| `activity://uper/question/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6157` |
-| `activity://uper/section-manage` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5149` |
-| `activity://uper/section-manage/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5151` |
-| `activity://uper/template/transmit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:851` |
-| `activity://uper/transweb` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5367` |
-| `activity://uper/transweb/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5369` |
-| `activity://uper/ugc_template/transmit` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:786` |
-| `activity://uper/user_center/bgm_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:432` |
-| `activity://uper/user_center/bgm_list/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:436` |
-| `activity://uper/user_center/custom_sticker_manager` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:279` |
-| `activity://uper/user_center/custom_sticker_manager/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:283` |
-| `activity://uper/user_center/draft` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3641` |
-| `activity://uper/user_center/draft/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3643` |
-| `activity://uper/user_center/sticker_image_picker` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:359` |
-| `activity://uper/user_center/sticker_image_picker/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:363` |
-| `activity://uper/video_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3717` |
-| `activity://uper/video_list/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3719` |
-| `activity://uper/video_section` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5299` |
-| `activity://uper/video_section/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5295` |
-| `activity://uper/video_template_feed_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6191` |
-| `activity://uper/video_template_feed_list/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6193` |
-| `activity://uper/web` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3605` |
-| `activity://uper/web/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3607` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `activity://uper/aggregated_problem` | `native` | Activity ??????UP ??? / aggregated problem????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5787` |
+| `activity://uper/aggregated_problem/**` | `native` | Activity ??????UP ??? / aggregated problem / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5789` |
+| `activity://uper/ai_story_album` | `native` | Activity ??????UP ??? / ai story album????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4195` |
+| `activity://uper/ai_story_album/**` | `native` | Activity ??????UP ??? / ai story album / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4197` |
+| `activity://uper/ai_story_create` | `native` | Activity ??????UP ??? / ai story create????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4021` |
+| `activity://uper/ai_story_gen` | `native` | Activity ??????UP ??? / ai story gen????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4093` |
+| `activity://uper/ai_story_home` | `native` | Activity ??????UP ??? / ai story home????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4235` |
+| `activity://uper/ai_story_home/**` | `native` | Activity ??????UP ??? / ai story home / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4231` |
+| `activity://uper/album` | `native` | Activity ??????UP ??? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3307` |
+| `activity://uper/album/**` | `native` | Activity ??????UP ??? / ?? / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3309` |
+| `activity://uper/album_new` | `native` | Activity ??????UP ??? / album new????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4690` |
+| `activity://uper/album_new/**` | `native` | Activity ??????UP ??? / album new / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4692` |
+| `activity://uper/archive-entrance` | `native` | Activity ??????UP ??? / archive entrance????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4277` |
+| `activity://uper/archive-entrance/**` | `native` | Activity ??????UP ??? / archive entrance / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4279` |
+| `activity://uper/capture` | `native` | Activity ??????UP ??? / capture????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3342` |
+| `activity://uper/capture-v3` | `native` | Activity ??????UP ??? / capture v3????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3346` |
+| `activity://uper/capture-v3/**` | `native` | Activity ??????UP ??? / capture v3 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3348` |
+| `activity://uper/capture/**` | `native` | Activity ??????UP ??? / capture / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3344` |
+| `activity://uper/capture_preview` | `native` | Activity ??????UP ??? / capture preview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:509` |
+| `activity://uper/capture_preview/**` | `native` | Activity ??????UP ??? / capture preview / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:513` |
+| `activity://uper/change_video_list` | `native` | Activity ??????UP ??? / change video list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3269` |
+| `activity://uper/change_video_list/**` | `native` | Activity ??????UP ??? / change video list / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3271` |
+| `activity://uper/choose_topic` | `native` | Activity ??????UP ??? / choose topic????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6083` |
+| `activity://uper/choose_topic/**` | `native` | Activity ??????UP ??? / choose topic / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6085` |
+| `activity://uper/collection/list` | `native` | Activity ??????UP ??? / collection / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5042` |
+| `activity://uper/collection/list/new` | `native` | Activity ??????UP ??? / collection / ?? / new????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5077` |
+| `activity://uper/collection/sort` | `native` | Activity ??????UP ??? / collection / sort????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5185` |
+| `activity://uper/collection/sort/custom` | `native` | Activity ??????UP ??? / collection / sort / custom????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5221` |
+| `activity://uper/commercial_declare` | `native` | Activity ??????UP ??? / commercial declare????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4482` |
+| `activity://uper/commercial_declare/**` | `native` | Activity ??????UP ??? / commercial declare / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4484` |
+| `activity://uper/cover_editor` | `native` | Activity ??????UP ??? / cover editor????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5403` |
+| `activity://uper/cover_editor/**` | `native` | Activity ??????UP ??? / cover editor / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5405` |
+| `activity://uper/cover_multi` | `native` | Activity ??????UP ??? / cover multi????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5547` |
+| `activity://uper/cover_multi/**` | `native` | Activity ??????UP ??? / cover multi / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5549` |
+| `activity://uper/cover_preview` | `native` | Activity ??????UP ??? / cover preview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5439` |
+| `activity://uper/cover_preview/**` | `native` | Activity ??????UP ??? / cover preview / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5441` |
+| `activity://uper/cover_setting` | `native` | Activity ??????UP ??? / cover setting????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5475` |
+| `activity://uper/cover_setting/**` | `native` | Activity ??????UP ??? / cover setting / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5477` |
+| `activity://uper/detail-collection` | `native` | Activity ??????UP ??? / detail collection????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5006` |
+| `activity://uper/detail-collection/**` | `native` | Activity ??????UP ??? / detail collection / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5008` |
+| `activity://uper/edit_cover` | `native` | Activity ??????UP ??? / edit cover????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3681` |
+| `activity://uper/edit_cover/**` | `native` | Activity ??????UP ??? / edit cover / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3683` |
+| `activity://uper/editor_home` | `native` | Activity ??????UP ??? / editor home????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:709` |
+| `activity://uper/editor_home/**` | `native` | Activity ??????UP ??? / editor home / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:713` |
+| `activity://uper/editor_main` | `native` | Activity ??????UP ??? / editor main????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:717` |
+| `activity://uper/editor_main/**` | `native` | Activity ??????UP ??? / editor main / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:721` |
+| `activity://uper/homevc-v4` | `native` | Activity ??????UP ??? / homevc v4????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6335` |
+| `activity://uper/international_cover_multi` | `native` | Activity ??????UP ??? / international cover multi????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5511` |
+| `activity://uper/international_cover_multi/**` | `native` | Activity ??????UP ??? / international cover multi / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5513` |
+| `activity://uper/join-up` | `native` | Activity ??????UP ??? / join up????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5261` |
+| `activity://uper/join-up/**` | `native` | Activity ??????UP ??? / join up / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5257` |
+| `activity://uper/manuscript-edit` | `native` | Activity ??????UP ??? / manuscript edit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3494` |
+| `activity://uper/manuscript-edit-v5` | `native` | Activity ??????UP ??? / manuscript edit v5????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3490` |
+| `activity://uper/manuscript-edit-v5/**` | `native` | Activity ??????UP ??? / manuscript edit v5 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3492` |
+| `activity://uper/manuscript-edit/**` | `native` | Activity ??????UP ??? / manuscript edit / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3496` |
+| `activity://uper/manuscript-list` | `native` | Activity ??????UP ??? / manuscript list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3791` |
+| `activity://uper/manuscript-list/**` | `native` | Activity ??????UP ??? / manuscript list / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3793` |
+| `activity://uper/manuscript-up` | `native` | Activity ??????UP ??? / manuscript up????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3535` |
+| `activity://uper/manuscript-up-v5` | `native` | Activity ??????UP ??? / manuscript up v5????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3531` |
+| `activity://uper/manuscript-up-v5/**` | `native` | Activity ??????UP ??? / manuscript up v5 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3533` |
+| `activity://uper/manuscript-up/**` | `native` | Activity ??????UP ??? / manuscript up / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3537` |
+| `activity://uper/manuscript_search` | `native` | Activity ??????UP ??? / manuscript search????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3831` |
+| `activity://uper/manuscript_search/**` | `native` | Activity ??????UP ??? / manuscript search / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3833` |
+| `activity://uper/manuscript_violation` | `native` | Activity ??????UP ??? / manuscript violation????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6011` |
+| `activity://uper/manuscript_violation/**` | `native` | Activity ??????UP ??? / manuscript violation / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6013` |
+| `activity://uper/material/choose` | `native` | Activity ??????UP ??? / material / choose????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4586` |
+| `activity://uper/material_preview` | `native` | Activity ??????UP ??? / material preview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3382` |
+| `activity://uper/material_preview/**` | `native` | Activity ??????UP ??? / material preview / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3384` |
+| `activity://uper/material_preview_v1` | `native` | Activity ??????UP ??? / material preview v1????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3418` |
+| `activity://uper/material_preview_v1/**` | `native` | Activity ??????UP ??? / material preview v1 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3420` |
+| `activity://uper/mood_daily_sign/transmit` | `native` | Activity ??????UP ??? / mood daily sign / transmit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4972` |
+| `activity://uper/new-collection` | `native` | Activity ??????UP ??? / new collection????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5113` |
+| `activity://uper/new-collection/**` | `native` | Activity ??????UP ??? / new collection / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5115` |
+| `activity://uper/partition-a-tag` | `native` | Activity ??????UP ??? / partition a tag????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3875` |
+| `activity://uper/partition-a-tag-topic` | `native` | Activity ??????UP ??? / partition a tag topic????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3871` |
+| `activity://uper/partition-a-tag-topic/**` | `native` | Activity ??????UP ??? / partition a tag topic / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3873` |
+| `activity://uper/partition-a-tag/**` | `native` | Activity ??????UP ??? / partition a tag / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3877` |
+| `activity://uper/partition-b-tag` | `native` | Activity ??????UP ??? / partition b tag????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3867` |
+| `activity://uper/partition-b-tag/**` | `native` | Activity ??????UP ??? / partition b tag / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3869` |
+| `activity://uper/partition-tag` | `native` | Activity ??????UP ??? / partition tag????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3879` |
+| `activity://uper/partition-tag-v2` | `native` | Activity ??????UP ??? / partition tag v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6047` |
+| `activity://uper/partition-tag-v2/**` | `native` | Activity ??????UP ??? / partition tag v2 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6049` |
+| `activity://uper/partition-tag-v3` | `native` | Activity ??????UP ??? / partition tag v3????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6119` |
+| `activity://uper/partition-tag-v3/**` | `native` | Activity ??????UP ??? / partition tag v3 / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6121` |
+| `activity://uper/partition-tag/**` | `native` | Activity ??????UP ??? / partition tag / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3881` |
+| `activity://uper/problem` | `native` | Activity ??????UP ??? / problem????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5823` |
+| `activity://uper/problem/**` | `native` | Activity ??????UP ??? / problem / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5825` |
+| `activity://uper/problem_limit` | `native` | Activity ??????UP ??? / problem limit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5863` |
+| `activity://uper/problem_limit/**` | `native` | Activity ??????UP ??? / problem limit / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5859` |
+| `activity://uper/problem_music` | `native` | Activity ??????UP ??? / problem music????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5939` |
+| `activity://uper/problem_music/**` | `native` | Activity ??????UP ??? / problem music / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5935` |
+| `activity://uper/problem_transcode` | `native` | Activity ??????UP ??? / problem transcode????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5977` |
+| `activity://uper/problem_transcode/**` | `native` | Activity ??????UP ??? / problem transcode / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5973` |
+| `activity://uper/publish/add_goods` | `native` | Activity ??????UP ??? / publish / add goods????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4800` |
+| `activity://uper/publish/add_goods_v2` | `native` | Activity ??????UP ??? / publish / add goods v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4834` |
+| `activity://uper/publish/edit_goods` | `native` | Activity ??????UP ??? / publish / edit goods????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4868` |
+| `activity://uper/publish/edit_goods_v2` | `native` | Activity ??????UP ??? / publish / edit goods v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:4902` |
+| `activity://uper/publish/transfer_danmu` | `native` | Activity ??????UP ??? / publish / transfer danmu????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5333` |
+| `activity://uper/query_progress` | `native` | Activity ??????UP ??? / query progress????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5901` |
+| `activity://uper/query_progress/**` | `native` | Activity ??????UP ??? / query progress / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5897` |
+| `activity://uper/question` | `native` | Activity ??????UP ??? / question????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6155` |
+| `activity://uper/question/**` | `native` | Activity ??????UP ??? / question / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6157` |
+| `activity://uper/section-manage` | `native` | Activity ??????UP ??? / section manage????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5149` |
+| `activity://uper/section-manage/**` | `native` | Activity ??????UP ??? / section manage / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5151` |
+| `activity://uper/template/transmit` | `native` | Activity ??????UP ??? / template / transmit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:851` |
+| `activity://uper/transweb` | `native` | Activity ??????UP ??? / transweb????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5367` |
+| `activity://uper/transweb/**` | `native` | Activity ??????UP ??? / transweb / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5369` |
+| `activity://uper/ugc_template/transmit` | `native` | Activity ??????UP ??? / ugc template / transmit????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:786` |
+| `activity://uper/user_center/bgm_list` | `native` | Activity ??????UP ??? / ???? / bgm list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:432` |
+| `activity://uper/user_center/bgm_list/**` | `native` | Activity ??????UP ??? / ???? / bgm list / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:436` |
+| `activity://uper/user_center/custom_sticker_manager` | `native` | Activity ??????UP ??? / ???? / custom sticker manager????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:279` |
+| `activity://uper/user_center/custom_sticker_manager/**` | `native` | Activity ??????UP ??? / ???? / custom sticker manager / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:283` |
+| `activity://uper/user_center/draft` | `native` | Activity ??????UP ??? / ???? / draft????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3641` |
+| `activity://uper/user_center/draft/**` | `native` | Activity ??????UP ??? / ???? / draft / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3643` |
+| `activity://uper/user_center/sticker_image_picker` | `native` | Activity ??????UP ??? / ???? / sticker image picker????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:359` |
+| `activity://uper/user_center/sticker_image_picker/**` | `native` | Activity ??????UP ??? / ???? / sticker image picker / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/v7.smali:363` |
+| `activity://uper/video_list` | `native` | Activity ??????UP ??? / video list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3717` |
+| `activity://uper/video_list/**` | `native` | Activity ??????UP ??? / video list / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3719` |
+| `activity://uper/video_section` | `native` | Activity ??????UP ??? / video section????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5299` |
+| `activity://uper/video_section/**` | `native` | Activity ??????UP ??? / video section / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:5295` |
+| `activity://uper/video_template_feed_list` | `native` | Activity ??????UP ??? / video template feed list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6191` |
+| `activity://uper/video_template_feed_list/**` | `native` | Activity ??????UP ??? / video template feed list / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:6193` |
+| `activity://uper/web` | `native` | Activity ??????UP ??? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3605` |
+| `activity://uper/web/**` | `native` | Activity ??????UP ??? / ?? / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/co0.smali:3607` |

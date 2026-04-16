@@ -1,95 +1,96 @@
-# 前缀：game_center
+﻿# ???game_center
 
-- 唯一路由数：`86`
-- 路由类型统计：`{'native': 82, 'web': 4}`
+- ??????`86`
+- ???????`{'native': 82, 'web': 4}`
+- ??????? ???? ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://game_center` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1627` |
-| `bilibili://game_center/**` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5291` |
-| `bilibili://game_center/add_address` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1362` |
-| `bilibili://game_center/add_game_widget` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4661` |
-| `bilibili://game_center/address_manager` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1428` |
-| `bilibili://game_center/all_game_activity` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2841` |
-| `bilibili://game_center/beta_game_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2908` |
-| `bilibili://game_center/book_center` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:868` |
-| `bilibili://game_center/category_rank` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4102` |
-| `bilibili://game_center/cloud_game/test` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:643` |
-| `bilibili://game_center/cloud_game_page_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:492` |
-| `bilibili://game_center/cloud_game_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:573` |
-| `bilibili://game_center/cloud_game_vip_rule` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:775` |
-| `bilibili://game_center/comment_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1086` |
-| `bilibili://game_center/comment_history_grade` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2569` |
-| `bilibili://game_center/comment_media_selector` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2636` |
-| `bilibili://game_center/comment_modify_history` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1883` |
-| `bilibili://game_center/comment_update` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1012` |
-| `bilibili://game_center/comment_video_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2703` |
-| `bilibili://game_center/cps_role_detail` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5097` |
-| `bilibili://game_center/detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3120` |
-| `bilibili://game_center/discover` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1663` |
-| `bilibili://game_center/download_manager` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2038` |
-| `bilibili://game_center/exchange_record` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1561` |
-| `bilibili://game_center/find_games` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2435` |
-| `bilibili://game_center/game_all_category` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2236` |
-| `bilibili://game_center/game_category` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2368` |
-| `bilibili://game_center/game_category_custom` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2302` |
-| `bilibili://game_center/game_download_manager` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1965` |
-| `bilibili://game_center/game_dynamic` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2170` |
-| `bilibili://game_center/game_feed` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1152` |
-| `bilibili://game_center/game_information_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:791` |
-| `bilibili://game_center/game_jump` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3901` |
-| `bilibili://game_center/game_jump_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3968` |
-| `bilibili://game_center/game_select` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1744` |
-| `bilibili://game_center/game_single_category` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1814` |
-| `bilibili://game_center/game_strategy_list_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1636` |
-| `bilibili://game_center/game_update` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3617` |
-| `bilibili://game_center/game_update_introduce` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1707` |
-| `bilibili://game_center/game_web_disable_warning` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4965` |
-| `bilibili://game_center/game_widget_initial` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4728` |
-| `bilibili://game_center/gift_center` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3412` |
-| `bilibili://game_center/gift_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3278` |
-| `bilibili://game_center/gift_single` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3483` |
-| `bilibili://game_center/gmds` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:946` |
-| `bilibili://game_center/history` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2104` |
-| `bilibili://game_center/home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1655` |
-| `bilibili://game_center/home_act` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1623` |
-| `bilibili://game_center/home_wiki` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1619` |
-| `bilibili://game_center/hot_game` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3211` |
-| `bilibili://game_center/imageviewer` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3550` |
-| `bilibili://game_center/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1887` |
-| `bilibili://game_center/lottery_record` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1565` |
-| `bilibili://game_center/main_process_toolbar_web` | `web` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5031` |
-| `bilibili://game_center/message` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3834` |
-| `bilibili://game_center/mine_time_card` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:709` |
-| `bilibili://game_center/mini_game_home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1226` |
-| `bilibili://game_center/mini_game_more` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3767` |
-| `bilibili://game_center/player_setting` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4035` |
-| `bilibili://game_center/point_mall_home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1296` |
-| `bilibili://game_center/point_product_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1494` |
-| `bilibili://game_center/point_record` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1569` |
-| `bilibili://game_center/private_recruit_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3124` |
-| `bilibili://game_center/rank_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1667` |
-| `bilibili://game_center/recent_new_game` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1895` |
-| `bilibili://game_center/role_bind_auth` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3046` |
-| `bilibili://game_center/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4256` |
-| `bilibili://game_center/secondary_rank_bindex` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4173` |
-| `bilibili://game_center/secondary_rank_hot` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4181` |
-| `bilibili://game_center/secondary_rank_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4177` |
-| `bilibili://game_center/secondary_rank_new` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4189` |
-| `bilibili://game_center/secondary_rank_order` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4185` |
-| `bilibili://game_center/secondary_rank_top` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4169` |
-| `bilibili://game_center/set_wx_remind` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4323` |
-| `bilibili://game_center/steam_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4390` |
-| `bilibili://game_center/tag` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1891` |
-| `bilibili://game_center/test/internal_test` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4461` |
-| `bilibili://game_center/theme_page` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2979` |
-| `bilibili://game_center/user` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1659` |
-| `bilibili://game_center/user_collect` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2502` |
-| `bilibili://game_center/user_gift` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3345` |
-| `bilibili://game_center/user_mini_game` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3692` |
-| `bilibili://game_center/user_voucher_records` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2770` |
-| `bilibili://game_center/video_play` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4527` |
-| `bilibili://game_center/welfare_center` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4594` |
-| `bilibili://game_center/wiki_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4795` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://game_center` | `native` | ????????????????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1627` |
+| `bilibili://game_center/**` | `web` | ???????????????? / ?????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5291` |
+| `bilibili://game_center/add_address` | `native` | ???????????????? / add address????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1362` |
+| `bilibili://game_center/add_game_widget` | `native` | ???????????????? / add game widget????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4661` |
+| `bilibili://game_center/address_manager` | `native` | ???????????????? / address manager????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1428` |
+| `bilibili://game_center/all_game_activity` | `native` | ???????????????? / all game activity????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2841` |
+| `bilibili://game_center/beta_game_list` | `native` | ???????????????? / beta game list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2908` |
+| `bilibili://game_center/book_center` | `native` | ???????????????? / book center????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:868` |
+| `bilibili://game_center/category_rank` | `native` | ???????????????? / category rank????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4102` |
+| `bilibili://game_center/cloud_game/test` | `native` | ???????????????? / cloud game / test????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:643` |
+| `bilibili://game_center/cloud_game_page_v2` | `native` | ???????????????? / cloud game page v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:492` |
+| `bilibili://game_center/cloud_game_v2` | `native` | ???????????????? / cloud game v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:573` |
+| `bilibili://game_center/cloud_game_vip_rule` | `native` | ???????????????? / cloud game vip rule????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:775` |
+| `bilibili://game_center/comment_detail` | `native` | ???????????????? / comment detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1086` |
+| `bilibili://game_center/comment_history_grade` | `native` | ???????????????? / comment history grade????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2569` |
+| `bilibili://game_center/comment_media_selector` | `native` | ???????????????? / comment media selector????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2636` |
+| `bilibili://game_center/comment_modify_history` | `native` | ???????????????? / comment modify history????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1883` |
+| `bilibili://game_center/comment_update` | `native` | ???????????????? / comment update????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1012` |
+| `bilibili://game_center/comment_video_detail` | `native` | ???????????????? / comment video detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2703` |
+| `bilibili://game_center/cps_role_detail` | `web` | ???????????????? / cps role detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5097` |
+| `bilibili://game_center/detail` | `native` | ???????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3120` |
+| `bilibili://game_center/discover` | `native` | ???????????????? / discover????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1663` |
+| `bilibili://game_center/download_manager` | `native` | ???????????????? / download manager????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2038` |
+| `bilibili://game_center/exchange_record` | `native` | ???????????????? / exchange record????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1561` |
+| `bilibili://game_center/find_games` | `native` | ???????????????? / find games????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2435` |
+| `bilibili://game_center/game_all_category` | `native` | ???????????????? / game all category????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2236` |
+| `bilibili://game_center/game_category` | `native` | ???????????????? / game category????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2368` |
+| `bilibili://game_center/game_category_custom` | `native` | ???????????????? / game category custom????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2302` |
+| `bilibili://game_center/game_download_manager` | `native` | ???????????????? / game download manager????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1965` |
+| `bilibili://game_center/game_dynamic` | `native` | ???????????????? / game dynamic????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2170` |
+| `bilibili://game_center/game_feed` | `native` | ???????????????? / game feed????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1152` |
+| `bilibili://game_center/game_information_list` | `native` | ???????????????? / game information list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:791` |
+| `bilibili://game_center/game_jump` | `native` | ???????????????? / game jump????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3901` |
+| `bilibili://game_center/game_jump_v2` | `native` | ???????????????? / game jump v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3968` |
+| `bilibili://game_center/game_select` | `native` | ???????????????? / game select????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1744` |
+| `bilibili://game_center/game_single_category` | `native` | ???????????????? / game single category????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1814` |
+| `bilibili://game_center/game_strategy_list_v2` | `native` | ???????????????? / game strategy list v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1636` |
+| `bilibili://game_center/game_update` | `native` | ???????????????? / game update????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3617` |
+| `bilibili://game_center/game_update_introduce` | `native` | ???????????????? / game update introduce????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1707` |
+| `bilibili://game_center/game_web_disable_warning` | `web` | ???????????????? / game web disable warning????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4965` |
+| `bilibili://game_center/game_widget_initial` | `native` | ???????????????? / game widget initial????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4728` |
+| `bilibili://game_center/gift_center` | `native` | ???????????????? / gift center????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3412` |
+| `bilibili://game_center/gift_detail` | `native` | ???????????????? / gift detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3278` |
+| `bilibili://game_center/gift_single` | `native` | ???????????????? / gift single????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3483` |
+| `bilibili://game_center/gmds` | `native` | ???????????????? / gmds????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:946` |
+| `bilibili://game_center/history` | `native` | ???????????????? / ????????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2104` |
+| `bilibili://game_center/home` | `native` | ???????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1655` |
+| `bilibili://game_center/home_act` | `native` | ???????????????? / home act????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1623` |
+| `bilibili://game_center/home_wiki` | `native` | ???????????????? / home wiki????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1619` |
+| `bilibili://game_center/hot_game` | `native` | ???????????????? / hot game????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3211` |
+| `bilibili://game_center/imageviewer` | `native` | ???????????????? / imageviewer????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3550` |
+| `bilibili://game_center/list` | `native` | ???????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1887` |
+| `bilibili://game_center/lottery_record` | `native` | ???????????????? / lottery record????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1565` |
+| `bilibili://game_center/main_process_toolbar_web` | `web` | ???????????????? / main process toolbar web????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:5031` |
+| `bilibili://game_center/message` | `native` | ???????????????? / message????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3834` |
+| `bilibili://game_center/mine_time_card` | `native` | ???????????????? / mine time card????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/nq.smali:709` |
+| `bilibili://game_center/mini_game_home` | `native` | ???????????????? / mini game home????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1226` |
+| `bilibili://game_center/mini_game_more` | `native` | ???????????????? / mini game more????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3767` |
+| `bilibili://game_center/player_setting` | `native` | ???????????????? / player setting????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4035` |
+| `bilibili://game_center/point_mall_home` | `native` | ???????????????? / point mall home????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1296` |
+| `bilibili://game_center/point_product_detail` | `native` | ???????????????? / point product detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1494` |
+| `bilibili://game_center/point_record` | `native` | ???????????????? / point record????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p50.smali:1569` |
+| `bilibili://game_center/private_recruit_detail` | `native` | ???????????????? / private recruit detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3124` |
+| `bilibili://game_center/rank_list` | `native` | ???????????????? / rank list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1667` |
+| `bilibili://game_center/recent_new_game` | `native` | ???????????????? / recent new game????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1895` |
+| `bilibili://game_center/role_bind_auth` | `native` | ???????????????? / role bind auth????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3046` |
+| `bilibili://game_center/search` | `native` | ???????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4256` |
+| `bilibili://game_center/secondary_rank_bindex` | `native` | ???????????????? / secondary rank bindex????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4173` |
+| `bilibili://game_center/secondary_rank_hot` | `native` | ???????????????? / secondary rank hot????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4181` |
+| `bilibili://game_center/secondary_rank_list` | `native` | ???????????????? / secondary rank list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4177` |
+| `bilibili://game_center/secondary_rank_new` | `native` | ???????????????? / secondary rank new????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4189` |
+| `bilibili://game_center/secondary_rank_order` | `native` | ???????????????? / secondary rank order????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4185` |
+| `bilibili://game_center/secondary_rank_top` | `native` | ???????????????? / secondary rank top????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4169` |
+| `bilibili://game_center/set_wx_remind` | `native` | ???????????????? / set wx remind????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4323` |
+| `bilibili://game_center/steam_detail` | `native` | ???????????????? / steam detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4390` |
+| `bilibili://game_center/tag` | `native` | ???????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1891` |
+| `bilibili://game_center/test/internal_test` | `native` | ???????????????? / test / internal test????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4461` |
+| `bilibili://game_center/theme_page` | `native` | ???????????????? / theme page????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2979` |
+| `bilibili://game_center/user` | `native` | ???????????????? / user????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:1659` |
+| `bilibili://game_center/user_collect` | `native` | ???????????????? / user collect????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2502` |
+| `bilibili://game_center/user_gift` | `native` | ???????????????? / user gift????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3345` |
+| `bilibili://game_center/user_mini_game` | `native` | ???????????????? / user mini game????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:3692` |
+| `bilibili://game_center/user_voucher_records` | `native` | ???????????????? / user voucher records????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:2770` |
+| `bilibili://game_center/video_play` | `native` | ???????????????? / video play????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4527` |
+| `bilibili://game_center/welfare_center` | `native` | ???????????????? / welfare center????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4594` |
+| `bilibili://game_center/wiki_detail` | `native` | ???????????????? / wiki detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/l40.smali:4795` |

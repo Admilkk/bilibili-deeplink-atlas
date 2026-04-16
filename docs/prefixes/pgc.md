@@ -1,56 +1,57 @@
-# 前缀：pgc
+﻿# ???pgc
 
-- 唯一路由数：`47`
-- 路由类型统计：`{'native': 47}`
+- ??????`47`
+- ???????`{'native': 47}`
+- ??????? PGC ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://pgc/bangumi/index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:626` |
-| `bilibili://pgc/bangumi_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:190` |
-| `bilibili://pgc/cinema-tab` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:198` |
-| `bilibili://pgc/cinema_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:186` |
-| `bilibili://pgc/common/index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:630` |
-| `bilibili://pgc/detail/pop` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:480` |
-| `bilibili://pgc/detail/web` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:411` |
-| `bilibili://pgc/favorate/playlist` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:998` |
-| `bilibili://pgc/favorite/bangumi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:461` |
-| `bilibili://pgc/favorite/cinema` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:396` |
-| `bilibili://pgc/favorite/playlist` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:932` |
-| `bilibili://pgc/guess-follow/bangumi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:466` |
-| `bilibili://pgc/guess-follow/cinema` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:470` |
-| `bilibili://pgc/home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:194` |
-| `bilibili://pgc/index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:622` |
-| `bilibili://pgc/landscape/match` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:571` |
-| `bilibili://pgc/module/doc-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:638` |
-| `bilibili://pgc/module/fall/{wid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:187` |
-| `bilibili://pgc/module/movie-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:634` |
-| `bilibili://pgc/module/tv-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:642` |
-| `bilibili://pgc/module/variety-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:610` |
-| `bilibili://pgc/newtimeline` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:861` |
-| `bilibili://pgc/newtimeline/{timeline_type}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:865` |
-| `bilibili://pgc/page/bangumi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:182` |
-| `bilibili://pgc/page/cinema` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:178` |
-| `bilibili://pgc/page/media-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:614` |
-| `bilibili://pgc/page/operation_list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:842` |
-| `bilibili://pgc/page/operation_list_content` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:389` |
-| `bilibili://pgc/partition/tab` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:385` |
-| `bilibili://pgc/quarter/list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:656` |
-| `bilibili://pgc/role_detail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:591` |
-| `bilibili://pgc/season` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:254` |
-| `bilibili://pgc/season/ep/{epid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:258` |
-| `bilibili://pgc/season/{season_id}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:270` |
-| `bilibili://pgc/tab/media-index` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:712` |
-| `bilibili://pgc/theater/choose` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:355` |
-| `bilibili://pgc/theater/match` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:501` |
-| `bilibili://pgc/theater/merge_room` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:505` |
-| `bilibili://pgc/theater/room` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:770` |
-| `bilibili://pgc/theater/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:636` |
-| `bilibili://pgc/theater/square` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:701` |
-| `bilibili://pgc/timeline` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:791` |
-| `bilibili://pgc/timeline-preference` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:252` |
-| `bilibili://pgc/timeline/{timeline_type}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:787` |
-| `bilibili://pgc/together/change/room` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:424` |
-| `bilibili://pgc/together/change/room/landscape` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:428` |
-| `bilibili://pgc/togetherWatch/chat` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:279` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://pgc/bangumi/index` | `native` | ????????????PGC / ?? / index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:626` |
+| `bilibili://pgc/bangumi_v2` | `native` | ????????????PGC / bangumi v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:190` |
+| `bilibili://pgc/cinema-tab` | `native` | ????????????PGC / cinema tab????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:198` |
+| `bilibili://pgc/cinema_v2` | `native` | ????????????PGC / cinema v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:186` |
+| `bilibili://pgc/common/index` | `native` | ????????????PGC / common / index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:630` |
+| `bilibili://pgc/detail/pop` | `native` | ????????????PGC / ?? / pop????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:480` |
+| `bilibili://pgc/detail/web` | `native` | ????????????PGC / ?? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:411` |
+| `bilibili://pgc/favorate/playlist` | `native` | ????????????PGC / favorate / playlist????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:998` |
+| `bilibili://pgc/favorite/bangumi` | `native` | ????????????PGC / ?? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:461` |
+| `bilibili://pgc/favorite/cinema` | `native` | ????????????PGC / ?? / cinema????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:396` |
+| `bilibili://pgc/favorite/playlist` | `native` | ????????????PGC / ?? / playlist????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:932` |
+| `bilibili://pgc/guess-follow/bangumi` | `native` | ????????????PGC / guess follow / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:466` |
+| `bilibili://pgc/guess-follow/cinema` | `native` | ????????????PGC / guess follow / cinema????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:470` |
+| `bilibili://pgc/home` | `native` | ????????????PGC / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:194` |
+| `bilibili://pgc/index` | `native` | ????????????PGC / index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:622` |
+| `bilibili://pgc/landscape/match` | `native` | ????????????PGC / landscape / match????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:571` |
+| `bilibili://pgc/module/doc-index` | `native` | ????????????PGC / module / doc index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:638` |
+| `bilibili://pgc/module/fall/{wid}` | `native` | ????????????PGC / module / fall / wid ??????????? | ?????wid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:187` |
+| `bilibili://pgc/module/movie-index` | `native` | ????????????PGC / module / movie index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:634` |
+| `bilibili://pgc/module/tv-index` | `native` | ????????????PGC / module / tv index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:642` |
+| `bilibili://pgc/module/variety-index` | `native` | ????????????PGC / module / variety index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:610` |
+| `bilibili://pgc/newtimeline` | `native` | ????????????PGC / newtimeline????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:861` |
+| `bilibili://pgc/newtimeline/{timeline_type}` | `native` | ????????????PGC / newtimeline / timeline_type ??????????? | ?????timeline_type | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:865` |
+| `bilibili://pgc/page/bangumi` | `native` | ????????????PGC / page / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:182` |
+| `bilibili://pgc/page/cinema` | `native` | ????????????PGC / page / cinema????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/rr.smali:178` |
+| `bilibili://pgc/page/media-index` | `native` | ????????????PGC / page / media index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:614` |
+| `bilibili://pgc/page/operation_list` | `native` | ????????????PGC / page / operation list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:842` |
+| `bilibili://pgc/page/operation_list_content` | `native` | ????????????PGC / page / operation list content????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:389` |
+| `bilibili://pgc/partition/tab` | `native` | ????????????PGC / partition / tab????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:385` |
+| `bilibili://pgc/quarter/list` | `native` | ????????????PGC / quarter / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:656` |
+| `bilibili://pgc/role_detail` | `native` | ????????????PGC / role detail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:591` |
+| `bilibili://pgc/season` | `native` | ????????????PGC / season????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:254` |
+| `bilibili://pgc/season/ep/{epid}` | `native` | ????????????PGC / season / ep / epid ??????????? | ?????epid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:258` |
+| `bilibili://pgc/season/{season_id}` | `native` | ????????????PGC / season / season_id ??????????? | ?????season_id | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/io.smali:270` |
+| `bilibili://pgc/tab/media-index` | `native` | ????????????PGC / tab / media index????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/m2.smali:712` |
+| `bilibili://pgc/theater/choose` | `native` | ????????????PGC / theater / choose????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:355` |
+| `bilibili://pgc/theater/match` | `native` | ????????????PGC / theater / match????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:501` |
+| `bilibili://pgc/theater/merge_room` | `native` | ????????????PGC / theater / merge room????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:505` |
+| `bilibili://pgc/theater/room` | `native` | ????????????PGC / theater / room????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:770` |
+| `bilibili://pgc/theater/search` | `native` | ????????????PGC / theater / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:636` |
+| `bilibili://pgc/theater/square` | `native` | ????????????PGC / theater / square????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:701` |
+| `bilibili://pgc/timeline` | `native` | ????????????PGC / timeline????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:791` |
+| `bilibili://pgc/timeline-preference` | `native` | ????????????PGC / timeline preference????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:252` |
+| `bilibili://pgc/timeline/{timeline_type}` | `native` | ????????????PGC / timeline / timeline_type ??????????? | ?????timeline_type | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/i0.smali:787` |
+| `bilibili://pgc/together/change/room` | `native` | ????????????PGC / together / change / room????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:424` |
+| `bilibili://pgc/together/change/room/landscape` | `native` | ????????????PGC / together / change / room / landscape????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:428` |
+| `bilibili://pgc/togetherWatch/chat` | `native` | ????????????PGC / togetherWatch / chat????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/xo.smali:279` |

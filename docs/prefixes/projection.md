@@ -1,12 +1,13 @@
-# 前缀：projection
+﻿# ???projection
 
-- 唯一路由数：`3`
-- 路由类型统计：`{'native': 3}`
+- ??????`3`
+- ???????`{'native': 3}`
+- ??????? projection ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://projection/controller-full` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:303` |
-| `bilibili://projection/guide-full` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:372` |
-| `bilibili://projection/search-full` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:437` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://projection/controller-full` | `native` | ????????????projection / controller full????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:303` |
+| `bilibili://projection/guide-full` | `native` | ????????????projection / guide full????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:372` |
+| `bilibili://projection/search-full` | `native` | ????????????projection / search full????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/mj0.smali:437` |

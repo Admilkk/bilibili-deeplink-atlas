@@ -1,39 +1,40 @@
-# 前缀：space
+﻿# ???space
 
-- 唯一路由数：`30`
-- 路由类型统计：`{'native': 30}`
+- ??????`30`
+- ???????`{'native': 30}`
+- ??????? ?? ???bilibili ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `bilibili://space/digital/appendage/detail/{nftId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2821` |
-| `bilibili://space/digital/overview/{url}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2755` |
-| `bilibili://space/fans_wall_drop_down` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1698` |
-| `bilibili://space/game-list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3415` |
-| `bilibili://space/garbDetail/{userId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1633` |
-| `bilibili://space/garbList/{userId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1763` |
-| `bilibili://space/headimage-list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3812` |
-| `bilibili://space/module/bangumi` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2088` |
-| `bilibili://space/module/cheese` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3151` |
-| `bilibili://space/module/cheese_v2` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3217` |
-| `bilibili://space/module/contribute` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1958` |
-| `bilibili://space/module/favorite` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2219` |
-| `bilibili://space/module/main` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2285` |
-| `bilibili://space/nft/list/fragment` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2887` |
-| `bilibili://space/nft/overview` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2751` |
-| `bilibili://space/nft/overview/big` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2685` |
-| `bilibili://space/opus` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p00.smali:1016` |
-| `bilibili://space/privacy-setting` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1893` |
-| `bilibili://space/realname/{userId}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3878` |
-| `bilibili://space/recent-pay-coin-list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2417` |
-| `bilibili://space/recommend-list` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2483` |
-| `bilibili://space/search` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1455` |
-| `bilibili://space/search/av` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3614` |
-| `bilibili://space/search/dynamic` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p00.smali:1926` |
-| `bilibili://space/season/season_series/{mid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3548` |
-| `bilibili://space/season/series/{mid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3481` |
-| `bilibili://space/user-report` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1828` |
-| `bilibili://space/web_activity_tab` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3349` |
-| `bilibili://space/{mid}` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1555` |
-| `bilibili://space/{mid}/**` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1559` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `bilibili://space/digital/appendage/detail/{nftId}` | `native` | ?????????????? / ???? / appendage / ?? / nftId ??????????? | ?????nftId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2821` |
+| `bilibili://space/digital/overview/{url}` | `native` | ?????????????? / ???? / overview / url ??????????? | ?????url | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2755` |
+| `bilibili://space/fans_wall_drop_down` | `native` | ?????????????? / fans wall drop down????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1698` |
+| `bilibili://space/game-list` | `native` | ?????????????? / game list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3415` |
+| `bilibili://space/garbDetail/{userId}` | `native` | ?????????????? / garbDetail / userId ??????????? | ?????userId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1633` |
+| `bilibili://space/garbList/{userId}` | `native` | ?????????????? / garbList / userId ??????????? | ?????userId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1763` |
+| `bilibili://space/headimage-list` | `native` | ?????????????? / headimage list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3812` |
+| `bilibili://space/module/bangumi` | `native` | ?????????????? / module / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2088` |
+| `bilibili://space/module/cheese` | `native` | ?????????????? / module / cheese????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3151` |
+| `bilibili://space/module/cheese_v2` | `native` | ?????????????? / module / cheese v2????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3217` |
+| `bilibili://space/module/contribute` | `native` | ?????????????? / module / contribute????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1958` |
+| `bilibili://space/module/favorite` | `native` | ?????????????? / module / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2219` |
+| `bilibili://space/module/main` | `native` | ?????????????? / module / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2285` |
+| `bilibili://space/nft/list/fragment` | `native` | ?????????????? / nft / ?? / fragment????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2887` |
+| `bilibili://space/nft/overview` | `native` | ?????????????? / nft / overview????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2751` |
+| `bilibili://space/nft/overview/big` | `native` | ?????????????? / nft / overview / big????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2685` |
+| `bilibili://space/opus` | `native` | ?????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p00.smali:1016` |
+| `bilibili://space/privacy-setting` | `native` | ?????????????? / privacy setting????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1893` |
+| `bilibili://space/realname/{userId}` | `native` | ?????????????? / realname / userId ??????????? | ?????userId | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3878` |
+| `bilibili://space/recent-pay-coin-list` | `native` | ?????????????? / recent pay coin list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2417` |
+| `bilibili://space/recommend-list` | `native` | ?????????????? / recommend list????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:2483` |
+| `bilibili://space/search` | `native` | ?????????????? / ??????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1455` |
+| `bilibili://space/search/av` | `native` | ?????????????? / ?? / av????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3614` |
+| `bilibili://space/search/dynamic` | `native` | ?????????????? / ?? / dynamic????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/p00.smali:1926` |
+| `bilibili://space/season/season_series/{mid}` | `native` | ?????????????? / season / season series / mid ??????????? | ?????mid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3548` |
+| `bilibili://space/season/series/{mid}` | `native` | ?????????????? / season / series / mid ??????????? | ?????mid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3481` |
+| `bilibili://space/user-report` | `native` | ?????????????? / user report????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1828` |
+| `bilibili://space/web_activity_tab` | `native` | ?????????????? / web activity tab????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:3349` |
+| `bilibili://space/{mid}` | `native` | ?????????????? / mid ??????????? | ?????mid | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1555` |
+| `bilibili://space/{mid}/**` | `native` | ?????????????? / mid ?? / ?????????????? | ?????mid???????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/ef.smali:1559` |

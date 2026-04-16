@@ -5,7 +5,6 @@
 ## 文档导航
 
 - [文档总览](./docs/index.md)
-- [提取方法](./docs/methodology.md)
 - [数据模型](./docs/data-model.md)
 - [路由关系说明](./docs/route-relations.md)
 - [`browser` 与通用 `web` 路由专题](./docs/browser-web.md)
@@ -35,11 +34,10 @@
 - `data/routes.csv`：便于筛选和表格查看的导出
 - `data/summary.json`：聚合统计结果
 - `docs/index.md`：文档入口与阅读顺序
-- `docs/methodology.md`：提取范围、边界和可信度说明
 - `docs/data-model.md`：字段定义与数据文件关系
 - `docs/route-relations.md`：路由别名、前缀和类型之间的关系说明
 - `docs/prefix-index.md`：按前缀拆分后的总索引
-- `docs/prefixes/*.md`：每个前缀各自的路由文档
+- `docs/prefixes/*.md`：每个前缀下的逐条路由说明文档
 - `docs/browser-web.md`：`bilibili://browser` 与通用 web 路由专题
 
 ## 重点说明

@@ -6,18 +6,16 @@
 
 ## 阅读顺序
 
-1. [提取方法](./methodology.md)
-2. [数据模型](./data-model.md)
-3. [路由关系说明](./route-relations.md)
-4. [前缀索引](./prefix-index.md)
-5. [`browser` 与通用 `web` 路由专题](./browser-web.md)
+1. [数据模型](./data-model.md)
+2. [路由关系说明](./route-relations.md)
+3. [前缀索引](./prefix-index.md)
+4. [`browser` 与通用 `web` 路由专题](./browser-web.md)
 
 ## 文档分工
 
-- [提取方法](./methodology.md)：说明数据从哪里来、提取边界是什么、哪些结论是确定的。
 - [数据模型](./data-model.md)：定义 `routes.json`、`routes.csv`、`summary.json` 中各字段的含义。
 - [路由关系说明](./route-relations.md)：解释“同一条路由块中的别名”“前缀分类”“路由类型”之间的对应关系。
-- [前缀索引](./prefix-index.md)：从 `route` 前缀角度浏览全量路由。
+- [前缀索引](./prefix-index.md)：从 `route` 前缀角度浏览全量路由，并进入逐条说明页。
 - [`browser` 与通用 `web` 路由专题](./browser-web.md)：针对 `bilibili://browser`、`activity://main/web` 和通用 web 容器链路做重点说明。
 
 ## 与数据文件的关系
@@ -35,4 +33,4 @@
 
 ## 使用边界
 
-本仓库是静态分析文档，不包含“可直接唤起的外部调用格式”结论，也不把单次动态测试结果混入全量路由清单。
+本仓库定位为路由参考手册，重点提供路由清单、逐条说明、参数占位和关联关系，不提供调用示例。

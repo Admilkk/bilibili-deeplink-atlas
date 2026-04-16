@@ -1,15 +1,16 @@
-# 前缀：activity-link
+﻿# ???activity-link
 
-- 唯一路由数：`6`
-- 路由类型统计：`{'native': 6}`
+- ??????`6`
+- ???????`{'native': 6}`
+- ??????? ?? ???Activity ???
 
-## 路由列表
+## ??????
 
-| 路由 | 类型 | 来源 |
-| --- | --- | --- |
-| `activity://link/conversation` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1301` |
-| `activity://link/groupDetail` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1379` |
-| `activity://link/im-home` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:2312` |
-| `activity://link/my_ai_chats` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1099` |
-| `activity://link/my_group` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1169` |
-| `activity://link/up_group` | `native` | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1841` |
+| ?? | ?? | ?? | ?? | ?? |
+| --- | --- | --- | --- | --- |
+| `activity://link/conversation` | `native` | Activity ???????? / conversation????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1301` |
+| `activity://link/groupDetail` | `native` | Activity ???????? / groupDetail????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1379` |
+| `activity://link/im-home` | `native` | Activity ???????? / im home????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:2312` |
+| `activity://link/my_ai_chats` | `native` | Activity ???????? / my ai chats????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1099` |
+| `activity://link/my_group` | `native` | Activity ???????? / my group????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1169` |
+| `activity://link/up_group` | `native` | Activity ???????? / up group????????? | ??????? | `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen/s70.smali:1841` |
