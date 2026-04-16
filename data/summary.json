@@ -1,21 +1,16 @@
 {
-  "total_rows": 1501,
-  "unique_routes": 1491,
+  "total_rows": 1228,
+  "unique_routes": 1226,
   "route_type_counts": {
-    "native": 1320,
-    "unknown": 101,
-    "web": 80
+    "native": 1165,
+    "unknown": 39,
+    "web": 24
   },
   "scheme_counts": {
     "activity": 240,
-    "bilibili": 988,
-    "http(s)": 273
+    "bilibili": 988
   },
   "top_prefixes": [
-    {
-      "prefix": "(http|https)",
-      "count": 265
-    },
     {
       "prefix": "uper",
       "count": 171
@@ -131,6 +126,10 @@
     {
       "prefix": "podcast",
       "count": 7
+    },
+    {
+      "prefix": "bilipay",
+      "count": 6
     }
   ]
 }

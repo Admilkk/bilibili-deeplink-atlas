@@ -1,70 +1,62 @@
 # bilibili-deeplink-atlas
 
-Static index of Bilibili Android deep links extracted from the app's generated BLRouter route tables.
+从哔哩哔哩 Android 客户端路由表中静态提取出的 deeplink 索引。
 
-## Snapshot
+## 文档导航
 
-- Unique route patterns: `1491`
-- Extracted route rows: `1501`
-- Scheme split:
-  - `bilibili://`: `988`
-  - `activity://`: `240`
-  - `(http|https)://`: `273`
-- Route type split:
-  - `native`: `1320`
-  - `web`: `80`
-  - `unknown`: `101`
+- [文档总览](./docs/index.md)
+- [提取方法](./docs/methodology.md)
+- [数据模型](./docs/data-model.md)
+- [路由关系说明](./docs/route-relations.md)
+- [`browser` 与通用 `web` 路由专题](./docs/browser-web.md)
+- [前缀索引](./docs/prefix-index.md)
 
-## Scope
+## 当前快照
 
-- Source APK project: `../apktool_out`
-- Extraction target: `apktool_out/smali_classes14/com/bilibili/lib/brouter/internal/routes/codegen`
-- Included schemes:
+- 唯一路由模式数：`1226`
+- 提取出的路由行数：`1228`
+- Scheme 分布：
+  - `bilibili://`：`988`
+  - `activity://`：`240`
+- 路由类型分布：
+  - `native`：`1165`
+  - `web`：`24`
+  - `unknown`：`39`
+
+## 范围
+
+- 当前纳入的路由 scheme：
   - `bilibili://`
   - `activity://`
-  - `(http|https)://` aliases that share the same router table
 
-## Files
+## 文件说明
 
-- `data/routes.json`: full extracted route list with alias groups and source locations
-- `data/routes.csv`: spreadsheet-friendly export
-- `data/summary.json`: aggregate counts
-- `docs/browser-web.md`: focused notes on `bilibili://browser` and generic web routing
-- `scripts/extract_routes.py`: extractor used to generate the dataset
+- `data/routes.json`：完整路由列表，含别名组和源码位置
+- `data/routes.csv`：便于筛选和表格查看的导出
+- `data/summary.json`：聚合统计结果
+- `docs/index.md`：文档入口与阅读顺序
+- `docs/methodology.md`：提取范围、边界和可信度说明
+- `docs/data-model.md`：字段定义与数据文件关系
+- `docs/route-relations.md`：路由别名、前缀和类型之间的关系说明
+- `docs/prefix-index.md`：按前缀拆分后的总索引
+- `docs/prefixes/*.md`：每个前缀各自的路由文档
+- `docs/browser-web.md`：`bilibili://browser` 与通用 web 路由专题
 
-## Method
+## 重点说明
 
-The extractor scans generated route registration smali files and groups each `JInterMediateRoute` block by:
+- `bilibili://browser` 与 `activity://main/web` 映射到同一条 `web` 路由。
+- `MWebActivity` 与 `WebFragment` 实际消费的目标 URL 字段是 `url`。
+- `WebFragment` 在加载网页前会自动补 `night` 和 `native.theme`。
 
-- route patterns inside the block
-- route type such as `native` or `web`
-- source file and line number
+## 路由量最高的前缀
 
-This is a static artifact inventory. It does not prove that every route can be triggered externally, only that the route is registered in the shipped router table.
-
-## Regeneration
-
-```bash
-python scripts/extract_routes.py
-```
-
-## Notes
-
-- `bilibili://browser`, `activity://main/web`, and generic `http(s)` aliases map to the same `web` route.
-- `MWebActivity` and `WebFragment` consume `url` as the effective target URL field.
-- `WebFragment` appends `night` and `native.theme` automatically when loading a web URL.
-
-## Top prefixes
-
-Highest-volume route namespaces in this snapshot:
-
-- `(http|https)`: `265`
-- `uper`: `171`
-- `mall`: `100`
-- `game_center`: `86`
-- `main`: `84`
-- `following`: `79`
-- `smallapp`: `53`
-- `im`: `51`
-- `pgc`: `47`
-- `live`: `42`
+- `uper`：`171`
+- `mall`：`100`
+- `game_center`：`86`
+- `main`：`84`
+- `following`：`79`
+- `smallapp`：`53`
+- `im`：`51`
+- `pgc`：`47`
+- `live`：`42`
+- `user_center`：`31`
