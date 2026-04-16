@@ -39,6 +39,7 @@
 }
 
 .route-open,
+.route-config,
 .route-copy {
   display: inline-flex;
   align-items: center;
@@ -56,10 +57,52 @@
 }
 
 .route-open:hover,
+.route-config:hover,
 .route-copy:hover {
   transform: translateY(-1px);
   border-color: rgba(0, 161, 214, 0.5);
   background: linear-gradient(135deg, rgba(0, 161, 214, 0.22), rgba(251, 114, 153, 0.16));
+}
+
+.route-config-panel {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(0, 161, 214, 0.05), rgba(255, 255, 255, 0));
+}
+
+.route-config-group + .route-config-group,
+.route-config-group + .route-config-result,
+.route-config-result + .route-actions {
+  margin-top: 20px;
+}
+
+.route-config-field {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.route-config-field span {
+  font-weight: 600;
+}
+
+.route-config-field input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+}
+
+.route-config-result code {
+  display: block;
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
 @media (max-width: 640px) {

@@ -1,14 +1,14 @@
 # 前缀：game_center
 
-本页收录前缀 `game_center` 下的全部 bilibili 协议 路由，主要对应“游戏中心”相关页面、容器或业务入口。
+前缀 `game_center` 下的全部路由，主要归入“游戏中心”相关页面或入口。
 
-> 共 86 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`86`
 
 ## `bilibili://game_center`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center/home_act`、`bilibili://game_center/home`、`bilibili://game_center/user`、`bilibili://game_center/discover`、`bilibili://game_center/rank_list`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 后续子路径”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 后续子路径”，类型为 网页。
 - 关联入口：`bilibili://game_center`
 :::
 
@@ -41,7 +41,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / add address”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / add address”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -57,7 +57,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / add game widget”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / add game widget”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -73,7 +73,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / address manager”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / address manager”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -89,7 +89,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / all game activity”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / all game activity”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -105,7 +105,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / beta game list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / beta game list”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -121,7 +121,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / book center”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / book center”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -137,7 +137,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / category rank”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / category rank”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -153,7 +153,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / cloud game page v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / cloud game page v2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -169,7 +169,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / cloud game v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / cloud game v2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -185,7 +185,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / cloud game vip rule”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / cloud game vip rule”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -201,7 +201,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / cloud game / test”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / cloud game / test”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -217,7 +217,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -233,7 +233,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment history grade”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment history grade”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -249,7 +249,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment media selector”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment media selector”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -265,7 +265,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment modify history”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment modify history”，类型为 原生。
 - 关联入口：`bilibili://game_center/list`、`bilibili://game_center/tag`、`bilibili://game_center/recent_new_game`
 :::
 
@@ -281,7 +281,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment update”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment update”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -297,7 +297,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / comment video detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / comment video detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -313,7 +313,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / cps role detail”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“游戏中心 / cps role detail”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 
@@ -329,7 +329,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 详情”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 详情”，类型为 原生。
 - 关联入口：`bilibili://game_center/private_recruit_detail`
 :::
 
@@ -345,7 +345,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / discover”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / discover”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center/home_act`、`bilibili://game_center`、`bilibili://game_center/home`、`bilibili://game_center/user`、`bilibili://game_center/rank_list`
 :::
 
@@ -361,7 +361,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / download manager”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / download manager”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -377,7 +377,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / exchange record”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / exchange record”，类型为 原生。
 - 关联入口：`bilibili://game_center/lottery_record`、`bilibili://game_center/point_record`
 :::
 
@@ -393,7 +393,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / find games”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / find games”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -409,7 +409,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game all category”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game all category”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -425,7 +425,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game category”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game category”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -441,7 +441,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game category custom”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game category custom”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -457,7 +457,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game download manager”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game download manager”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -473,7 +473,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game dynamic”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game dynamic”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -489,7 +489,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game feed”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game feed”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -505,7 +505,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game information list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game information list”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -521,7 +521,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game jump”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game jump”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -537,7 +537,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game jump v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game jump v2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -553,7 +553,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game select”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game select”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -569,7 +569,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game single category”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game single category”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -585,7 +585,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game strategy list v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game strategy list v2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -601,7 +601,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game update”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game update”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -617,7 +617,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game update introduce”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game update introduce”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -633,7 +633,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game web disable warning”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game web disable warning”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 
@@ -649,7 +649,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / game widget initial”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / game widget initial”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -665,7 +665,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / gift center”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / gift center”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -681,7 +681,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / gift detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / gift detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -697,7 +697,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / gift single”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / gift single”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -713,7 +713,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / gmds”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / gmds”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -729,7 +729,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 历史记录”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 历史记录”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -745,7 +745,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 首页”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 首页”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center/home_act`、`bilibili://game_center`、`bilibili://game_center/user`、`bilibili://game_center/discover`、`bilibili://game_center/rank_list`
 :::
 
@@ -761,7 +761,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / home act”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / home act”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center`、`bilibili://game_center/home`、`bilibili://game_center/user`、`bilibili://game_center/discover`、`bilibili://game_center/rank_list`
 :::
 
@@ -777,7 +777,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / home wiki”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / home wiki”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_act`、`bilibili://game_center`、`bilibili://game_center/home`、`bilibili://game_center/user`、`bilibili://game_center/discover`、`bilibili://game_center/rank_list`
 :::
 
@@ -793,7 +793,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / hot game”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / hot game”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -809,7 +809,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / imageviewer”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / imageviewer”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -825,7 +825,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 列表”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 列表”，类型为 原生。
 - 关联入口：`bilibili://game_center/comment_modify_history`、`bilibili://game_center/tag`、`bilibili://game_center/recent_new_game`
 :::
 
@@ -841,7 +841,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / lottery record”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / lottery record”，类型为 原生。
 - 关联入口：`bilibili://game_center/exchange_record`、`bilibili://game_center/point_record`
 :::
 
@@ -857,7 +857,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / main process toolbar web”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“游戏中心 / main process toolbar web”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 
@@ -873,7 +873,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / message”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / message”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -889,7 +889,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / mine time card”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / mine time card”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -905,7 +905,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / mini game home”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / mini game home”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -921,7 +921,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / mini game more”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / mini game more”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -937,7 +937,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / player setting”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / player setting”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -953,7 +953,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / point mall home”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / point mall home”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -969,7 +969,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / point product detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / point product detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -985,7 +985,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / point record”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / point record”，类型为 原生。
 - 关联入口：`bilibili://game_center/exchange_record`、`bilibili://game_center/lottery_record`
 :::
 
@@ -1001,7 +1001,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / private recruit detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / private recruit detail”，类型为 原生。
 - 关联入口：`bilibili://game_center/detail`
 :::
 
@@ -1017,7 +1017,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / rank list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / rank list”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center/home_act`、`bilibili://game_center`、`bilibili://game_center/home`、`bilibili://game_center/user`、`bilibili://game_center/discover`
 :::
 
@@ -1033,7 +1033,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / recent new game”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / recent new game”，类型为 原生。
 - 关联入口：`bilibili://game_center/comment_modify_history`、`bilibili://game_center/list`、`bilibili://game_center/tag`
 :::
 
@@ -1049,7 +1049,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / role bind auth”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / role bind auth”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1065,7 +1065,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 搜索”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 搜索”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1081,7 +1081,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank bindex”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank bindex”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_top`、`bilibili://game_center/secondary_rank_list`、`bilibili://game_center/secondary_rank_hot`、`bilibili://game_center/secondary_rank_order`、`bilibili://game_center/secondary_rank_new`
 :::
 
@@ -1097,7 +1097,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank hot”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank hot”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_top`、`bilibili://game_center/secondary_rank_bindex`、`bilibili://game_center/secondary_rank_list`、`bilibili://game_center/secondary_rank_order`、`bilibili://game_center/secondary_rank_new`
 :::
 
@@ -1113,7 +1113,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank list”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_top`、`bilibili://game_center/secondary_rank_bindex`、`bilibili://game_center/secondary_rank_hot`、`bilibili://game_center/secondary_rank_order`、`bilibili://game_center/secondary_rank_new`
 :::
 
@@ -1129,7 +1129,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank new”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank new”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_top`、`bilibili://game_center/secondary_rank_bindex`、`bilibili://game_center/secondary_rank_list`、`bilibili://game_center/secondary_rank_hot`、`bilibili://game_center/secondary_rank_order`
 :::
 
@@ -1145,7 +1145,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank order”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank order”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_top`、`bilibili://game_center/secondary_rank_bindex`、`bilibili://game_center/secondary_rank_list`、`bilibili://game_center/secondary_rank_hot`、`bilibili://game_center/secondary_rank_new`
 :::
 
@@ -1161,7 +1161,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / secondary rank top”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / secondary rank top”，类型为 原生。
 - 关联入口：`bilibili://game_center/secondary_rank_bindex`、`bilibili://game_center/secondary_rank_list`、`bilibili://game_center/secondary_rank_hot`、`bilibili://game_center/secondary_rank_order`、`bilibili://game_center/secondary_rank_new`
 :::
 
@@ -1177,7 +1177,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / set wx remind”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / set wx remind”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1193,7 +1193,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / steam detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / steam detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1209,7 +1209,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / 标签”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / 标签”，类型为 原生。
 - 关联入口：`bilibili://game_center/comment_modify_history`、`bilibili://game_center/list`、`bilibili://game_center/recent_new_game`
 :::
 
@@ -1225,7 +1225,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / test / internal test”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / test / internal test”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1241,7 +1241,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / theme page”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / theme page”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1257,7 +1257,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / user”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / user”，类型为 原生。
 - 关联入口：`bilibili://game_center/home_wiki`、`bilibili://game_center/home_act`、`bilibili://game_center`、`bilibili://game_center/home`、`bilibili://game_center/discover`、`bilibili://game_center/rank_list`
 :::
 
@@ -1273,7 +1273,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / user collect”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / user collect”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1289,7 +1289,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / user gift”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / user gift”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1305,7 +1305,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / user mini game”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / user mini game”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1321,7 +1321,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / user voucher records”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / user voucher records”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1337,7 +1337,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / video play”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / video play”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1353,7 +1353,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / welfare center”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / welfare center”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -1369,7 +1369,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“游戏中心 / wiki detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“游戏中心 / wiki detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

@@ -1,14 +1,14 @@
 # 前缀：music
 
-本页收录前缀 `music` 下的全部 bilibili 协议 路由，主要对应“音乐”相关页面、容器或业务入口。
+前缀 `music` 下的全部路由，主要归入“音乐”相关页面或入口。
 
-> 共 19 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`19`
 
 ## `bilibili://music/contribution/err`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / contribution / err”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / contribution / err”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / contributions”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / contributions”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / 详情 / songId 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / 详情 / songId 参数”，类型为 原生。
 - 关联入口：`bilibili://podcast/legacy`、`bilibili://music/menu/detail/{menuId}`
 :::
 
@@ -50,13 +50,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/detail/{songId}" />
+<RouteActions route="bilibili://music/detail/{songId}" config-link="/config/bilibili-music-detail-songid" />
 
 ## `bilibili://music/favorite/menu`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / 收藏 / menu”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / 收藏 / menu”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / 首页”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / 首页”，类型为 原生。
 - 关联入口：`bilibili://podcast/**`、`bilibili://podcast`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / menu / 详情 / menuId 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / menu / 详情 / menuId 参数”，类型为 原生。
 - 关联入口：`bilibili://podcast/legacy`、`bilibili://music/detail/{songId}`
 :::
 
@@ -98,13 +98,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/menu/detail/{menuId}" />
+<RouteActions route="bilibili://music/menu/detail/{menuId}" config-link="/config/bilibili-music-menu-detail-menuid" />
 
 ## `bilibili://music/menu/edit`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / menu / edit”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / menu / edit”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / 详情”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / 详情”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -136,7 +136,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / manage”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / manage”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / manage v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / manage v2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -168,7 +168,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / playpage / playlistId 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / playpage / playlistId 参数”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/spacepage/{spaceMid}`
 :::
 
@@ -178,13 +178,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/playlist/playpage/{playlistId}" />
+<RouteActions route="bilibili://music/playlist/playpage/{playlistId}" config-link="/config/bilibili-music-playlist-playpage-playlistid" />
 
 ## `bilibili://music/playlist/search`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / 搜索”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / 搜索”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/search/{media_id}`
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / 搜索 / media_id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / 搜索 / media_id 参数”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/search`
 :::
 
@@ -210,13 +210,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/playlist/search/{media_id}" />
+<RouteActions route="bilibili://music/playlist/search/{media_id}" config-link="/config/bilibili-music-playlist-search-media_id" />
 
 ## `bilibili://music/playlist/search2`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / search2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / search2”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/search2/{media_id}`
 :::
 
@@ -232,7 +232,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / search2 / media_id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / search2 / media_id 参数”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/search2`
 :::
 
@@ -242,13 +242,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/playlist/search2/{media_id}" />
+<RouteActions route="bilibili://music/playlist/search2/{media_id}" config-link="/config/bilibili-music-playlist-search2-media_id" />
 
 ## `bilibili://music/playlist/spacepage/{spaceMid}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / playlist / spacepage / spaceMid 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / playlist / spacepage / spaceMid 参数”，类型为 原生。
 - 关联入口：`bilibili://music/playlist/playpage/{playlistId}`
 :::
 
@@ -258,13 +258,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://music/playlist/spacepage/{spaceMid}" />
+<RouteActions route="bilibili://music/playlist/spacepage/{spaceMid}" config-link="/config/bilibili-music-playlist-spacepage-spacemid" />
 
 ## `bilibili://music/search`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / 搜索”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / 搜索”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -280,7 +280,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / search2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / search2”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -296,7 +296,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“音乐 / 空间 / page”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“音乐 / 空间 / page”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

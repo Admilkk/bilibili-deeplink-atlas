@@ -1,14 +1,14 @@
 # 前缀：activity-im
 
-本页收录前缀 `activity-im` 下的全部 Activity 路由，主要对应“消息”相关页面、容器或业务入口。
+前缀 `activity-im` 下的全部路由，主要归入“消息”相关页面或入口。
 
-> 共 20 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`20`
 
 ## `activity://im/background-setting`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / background setting”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / background setting”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / chat / 设置”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / chat / 设置”，类型为 原生。
 - 关联入口：`bilibili://link/preference`
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / chatSetting / item”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / chatSetting / item”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / chatSetting / tip item”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / chatSetting / tip item”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / conversation”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / conversation”，类型为 原生。
 - 关联入口：`activity://link/conversation`、`bilibili://im/conversation`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / conversation / garbage”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / conversation / garbage”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / conversation / huahuo”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / conversation / huahuo”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / conversation / unfollow”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / conversation / unfollow”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -136,7 +136,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / create chat group”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / create chat group”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / groupDetail”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / groupDetail”，类型为 原生。
 - 关联入口：`activity://link/groupDetail`
 :::
 
@@ -168,7 +168,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / groupManager”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / groupManager”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -184,7 +184,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / groupManager add”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / groupManager add”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / groupMember”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / groupMember”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -216,7 +216,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / groupNotices”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / groupNotices”，类型为 原生。
 - 关联入口：`bilibili://im/group/assistant`
 :::
 
@@ -232,7 +232,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / h5”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / h5”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -248,7 +248,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / my ai chats”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / my ai chats”，类型为 原生。
 - 关联入口：`activity://link/my_ai_chats`
 :::
 
@@ -264,7 +264,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / my group”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / my group”，类型为 原生。
 - 关联入口：`activity://link/my_group`
 :::
 
@@ -280,7 +280,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / singleChat Detail”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / singleChat Detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -296,7 +296,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / sticker”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / sticker”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -312,7 +312,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“消息 / up group”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“消息 / up group”，类型为 原生。
 - 关联入口：`activity://link/up_group`
 :::
 

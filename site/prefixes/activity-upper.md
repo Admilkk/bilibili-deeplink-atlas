@@ -1,14 +1,14 @@
 # 前缀：activity-upper
 
-本页收录前缀 `activity-upper` 下的全部 Activity 路由，主要对应“UP 主”相关页面、容器或业务入口。
+前缀 `activity-upper` 下的全部路由，主要归入“UP 主”相关页面或入口。
 
-> 共 15 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`15`
 
 ## `activity://upper/ai_story_detail`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / ai story detail”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / ai story detail”，类型为 原生。
 - 关联入口：`bilibili://uper/ai_story_detail`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / ai / 故事模式 / role page”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / ai / 故事模式 / role page”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / archive entrance loading”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / archive entrance loading”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / king honour / battle”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / king honour / battle”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / king honour / preview”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / king honour / preview”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / king honour / publish”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / king honour / publish”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview plus”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview plus”，类型为 原生。
 - 关联入口：`activity://upper/material_preview_plus/**`
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview plus / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview plus / 后续子路径”，类型为 原生。
 - 关联入口：`activity://upper/material_preview_plus`
 :::
 
@@ -137,7 +137,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview plus / preview url”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview plus / preview url”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -153,7 +153,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview plus / v1”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview plus / v1”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -169,7 +169,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview v2”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview v2”，类型为 原生。
 - 关联入口：`activity://upper/material_preview_v2/**`
 :::
 
@@ -185,7 +185,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / material preview v2 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / material preview v2 / 后续子路径”，类型为 原生。
 - 关联入口：`activity://upper/material_preview_v2`
 :::
 
@@ -202,7 +202,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / template / 详情”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / template / 详情”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -218,7 +218,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / 话题 / 搜索”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / 话题 / 搜索”，类型为 原生。
 - 关联入口：`activity://upper/topic/search/**`
 :::
 
@@ -234,7 +234,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“UP 主 / 话题 / 搜索 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“UP 主 / 话题 / 搜索 / 后续子路径”，类型为 原生。
 - 关联入口：`activity://upper/topic/search`
 :::
 

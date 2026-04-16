@@ -1,14 +1,14 @@
 # 前缀：activity-following
 
-本页收录前缀 `activity-following` 下的全部 Activity 路由，主要对应“关注”相关页面、容器或业务入口。
+前缀 `activity-following` 下的全部路由，主要归入“关注”相关页面或入口。
 
-> 共 10 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`10`
 
 ## `activity://following/detail`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / 详情”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / 详情”，类型为 原生。
 - 关联入口：`activity://painting/detail`、`activity://pictureshow/detail`、`bilibili://following/detail/{dynamicId}`、`bilibili://album/{picid}`、`bilibili://pictureshow/detail/{picid}`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / following topic list”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / following topic list”，类型为 原生。
 - 关联入口：`activity://following/following_topic_list/**`、`bilibili://following/my_topic_list`
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / following topic list / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / following topic list / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://following/my_topic_list`、`activity://following/following_topic_list`
 :::
 
@@ -57,7 +57,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / light browser v2”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / light browser v2”，类型为 原生。
 - 关联入口：`bilibili://following/lightbrowser/{dyn_id}`
 :::
 
@@ -73,7 +73,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / notool / 网页”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / notool / 网页”，类型为 原生。
 - 关联入口：`activity://following/web`
 :::
 
@@ -89,7 +89,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / select location”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / select location”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -105,7 +105,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / tagsearch”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / tagsearch”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -121,7 +121,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / topic search”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / topic search”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -137,7 +137,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / vertical search”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / vertical search”，类型为 原生。
 - 关联入口：`bilibili://following/dynamic_search`
 :::
 
@@ -153,7 +153,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“关注 / 网页”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“关注 / 网页”，类型为 原生。
 - 关联入口：`activity://following/notool/web`
 :::
 

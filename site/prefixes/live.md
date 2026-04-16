@@ -1,14 +1,14 @@
 # 前缀：live
 
-本页收录前缀 `live` 下的全部 bilibili 协议 路由，主要对应“直播”相关页面、容器或业务入口。
+前缀 `live` 下的全部路由，主要归入“直播”相关页面或入口。
 
-> 共 34 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`34`
 
 ## `bilibili://live/{extra_room_id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / extra_room_id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / extra_room_id 参数”，类型为 原生。
 - 关联入口：`activity://live/live-room`
 :::
 
@@ -18,13 +18,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://live/{extra_room_id}" />
+<RouteActions route="bilibili://live/{extra_room_id}" config-link="/config/bilibili-live-extra_room_id" />
 
 ## `bilibili://live/anchor-des`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / anchor des”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / anchor des”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / biz / 浏览器”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“直播 / biz / 浏览器”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / appointment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / appointment”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/lynx-panel`、`bilibili://live/commonEvent/playNotice`、`bilibili://live/commonEvent/officialRoom`、`bilibili://live/commonEvent/multiView`
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / lynx panel”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / lynx panel”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/playNotice`、`bilibili://live/commonEvent/officialRoom`、`bilibili://live/commonEvent/appointment`、`bilibili://live/commonEvent/multiView`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / multiView”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / multiView”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/lynx-panel`、`bilibili://live/commonEvent/playNotice`、`bilibili://live/commonEvent/officialRoom`、`bilibili://live/commonEvent/appointment`
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / officialRoom”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / officialRoom”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/lynx-panel`、`bilibili://live/commonEvent/playNotice`、`bilibili://live/commonEvent/appointment`、`bilibili://live/commonEvent/multiView`
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / online rank”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / online rank”，类型为 原生。
 - 关联入口：`bilibili://live/openRoomPanel/rankPanel`、`bilibili://live/openRoomPanel/giftPanel`、`bilibili://live/openRoomPanel/giftSetting`、`bilibili://live/openRoomPanel/anchorCard`、`bilibili://live/openRoomPanel/userCard`
 :::
 
@@ -136,7 +136,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / commonEvent / playNotice”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / commonEvent / playNotice”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/lynx-panel`、`bilibili://live/commonEvent/officialRoom`、`bilibili://live/commonEvent/appointment`、`bilibili://live/commonEvent/multiView`
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / dispatcher”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / dispatcher”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -168,7 +168,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / edit award”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / edit award”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -184,7 +184,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / enable fans medal”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / enable fans medal”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / 首页”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / 首页”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -216,7 +216,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / index / 信息流”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / index / 信息流”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -232,7 +232,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / live area”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / live area”，类型为 原生。
 - 关联入口：`activity://live/live-area-video-list`
 :::
 
@@ -248,7 +248,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / live card”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / live card”，类型为 原生。
 - 关联入口：`activity://live/live_card`
 :::
 
@@ -264,7 +264,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / msg exhibition”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / msg exhibition”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -280,7 +280,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / openRoomPanel / anchorCard”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / openRoomPanel / anchorCard”，类型为 原生。
 - 关联入口：`bilibili://live/openRoomPanel/rankPanel`、`bilibili://live/commonEvent/online-rank`、`bilibili://live/openRoomPanel/giftPanel`、`bilibili://live/openRoomPanel/giftSetting`、`bilibili://live/openRoomPanel/userCard`
 :::
 
@@ -296,7 +296,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / openRoomPanel / giftPanel”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / openRoomPanel / giftPanel”，类型为 原生。
 - 关联入口：`bilibili://live/openRoomPanel/rankPanel`、`bilibili://live/commonEvent/online-rank`、`bilibili://live/openRoomPanel/giftSetting`、`bilibili://live/openRoomPanel/anchorCard`、`bilibili://live/openRoomPanel/userCard`
 :::
 
@@ -312,7 +312,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / openRoomPanel / giftSetting”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / openRoomPanel / giftSetting”，类型为 原生。
 - 关联入口：`bilibili://live/openRoomPanel/rankPanel`、`bilibili://live/commonEvent/online-rank`、`bilibili://live/openRoomPanel/giftPanel`、`bilibili://live/openRoomPanel/anchorCard`、`bilibili://live/openRoomPanel/userCard`
 :::
 
@@ -328,7 +328,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / openRoomPanel / rankPanel”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / openRoomPanel / rankPanel”，类型为 原生。
 - 关联入口：`bilibili://live/commonEvent/online-rank`、`bilibili://live/openRoomPanel/giftPanel`、`bilibili://live/openRoomPanel/giftSetting`、`bilibili://live/openRoomPanel/anchorCard`、`bilibili://live/openRoomPanel/userCard`
 :::
 
@@ -344,7 +344,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / openRoomPanel / userCard”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / openRoomPanel / userCard”，类型为 原生。
 - 关联入口：`bilibili://live/openRoomPanel/rankPanel`、`bilibili://live/commonEvent/online-rank`、`bilibili://live/openRoomPanel/giftPanel`、`bilibili://live/openRoomPanel/giftSetting`、`bilibili://live/openRoomPanel/anchorCard`
 :::
 
@@ -360,7 +360,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / rhythm danmu edit”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / rhythm danmu edit”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -376,7 +376,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / select area”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / select area”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -392,7 +392,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / select city”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / select city”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -408,7 +408,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / select country”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / select country”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -424,7 +424,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / select province”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / select province”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -440,7 +440,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / shopping list search”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / shopping list search”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -456,7 +456,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / shopping / cartList”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / shopping / cartList”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -472,7 +472,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / shopping / deepLink”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / shopping / deepLink”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -488,7 +488,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / shopping / miniProgram”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / shopping / miniProgram”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -504,7 +504,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / shopping / timed”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / shopping / timed”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -520,7 +520,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / 话题”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / 话题”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -536,7 +536,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“直播 / 视频 / 信息流”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“直播 / 视频 / 信息流”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

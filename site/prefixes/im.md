@@ -1,14 +1,14 @@
 # 前缀：im
 
-本页收录前缀 `im` 下的全部 bilibili 协议 路由，主要对应“消息”相关页面、容器或业务入口。
+前缀 `im` 下的全部路由，主要归入“消息”相关页面或入口。
 
-> 共 31 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`31`
 
 ## `bilibili://im`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息”，类型为 原生。
 - 关联入口：`bilibili://im/**`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://im`
 :::
 
@@ -41,7 +41,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / ai / sub_type 参数 / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / ai / sub_type 参数 / id 参数”，类型为 原生。
 - 关联入口：`bilibili://im/chat/customer/{shop_type}/{shop_id}`、`bilibili://im/chat/group/{id}`、`bilibili://im/chat/search/{id}`
 :::
 
@@ -52,13 +52,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/ai/{sub_type}/{id}" />
+<RouteActions route="bilibili://im/chat/ai/{sub_type}/{id}" config-link="/config/bilibili-im-chat-ai-sub_type-id" />
 
 ## `bilibili://im/chat/assistant/{type}/{id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / assistant / type 参数 / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / assistant / type 参数 / id 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -69,13 +69,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/assistant/{type}/{id}" />
+<RouteActions route="bilibili://im/chat/assistant/{type}/{id}" config-link="/config/bilibili-im-chat-assistant-type-id" />
 
 ## `bilibili://im/chat/customer/{shop_type}/{shop_id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / customer / shop_type 参数 / shop_id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / customer / shop_type 参数 / shop_id 参数”，类型为 原生。
 - 关联入口：`bilibili://im/chat/ai/{sub_type}/{id}`、`bilibili://im/chat/group/{id}`、`bilibili://im/chat/search/{id}`
 :::
 
@@ -86,13 +86,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/customer/{shop_type}/{shop_id}" />
+<RouteActions route="bilibili://im/chat/customer/{shop_type}/{shop_id}" config-link="/config/bilibili-im-chat-customer-shop_type-shop_id" />
 
 ## `bilibili://im/chat/group/{id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / group / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / group / id 参数”，类型为 原生。
 - 关联入口：`bilibili://im/chat/ai/{sub_type}/{id}`、`bilibili://im/chat/customer/{shop_type}/{shop_id}`、`bilibili://im/chat/search/{id}`
 :::
 
@@ -102,13 +102,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/group/{id}" />
+<RouteActions route="bilibili://im/chat/group/{id}" config-link="/config/bilibili-im-chat-group-id" />
 
 ## `bilibili://im/chat/personal/{id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / personal / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / personal / id 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -118,13 +118,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/personal/{id}" />
+<RouteActions route="bilibili://im/chat/personal/{id}" config-link="/config/bilibili-im-chat-personal-id" />
 
 ## `bilibili://im/chat/search/{id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / chat / 搜索 / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / chat / 搜索 / id 参数”，类型为 原生。
 - 关联入口：`bilibili://im/chat/ai/{sub_type}/{id}`、`bilibili://im/chat/customer/{shop_type}/{shop_id}`、`bilibili://im/chat/group/{id}`
 :::
 
@@ -134,13 +134,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/chat/search/{id}" />
+<RouteActions route="bilibili://im/chat/search/{id}" config-link="/config/bilibili-im-chat-search-id" />
 
 ## `bilibili://im/contact`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / contact”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / contact”，类型为 原生。
 - 关联入口：`bilibili://im/contact/share`
 :::
 
@@ -156,7 +156,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / contact / 分享”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / contact / 分享”，类型为 原生。
 - 关联入口：`bilibili://im/contact`
 :::
 
@@ -172,7 +172,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / conversation”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / conversation”，类型为 原生。
 - 关联入口：`activity://link/conversation`、`activity://im/conversation`
 :::
 
@@ -188,7 +188,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / conversation / stranger”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / conversation / stranger”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -204,7 +204,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / create friend group”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / create friend group”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -220,7 +220,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / customer / 设置”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / customer / 设置”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -236,7 +236,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / group notify”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / group notify”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -252,7 +252,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / group / assistant”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / group / assistant”，类型为 原生。
 - 关联入口：`activity://im/groupNotices`
 :::
 
@@ -268,7 +268,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / home tab”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / home tab”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -284,7 +284,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / keyword blocking”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / keyword blocking”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -300,7 +300,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / at old”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / at old”，类型为 原生。
 - 关联入口：`bilibili://im/notification/like_old`、`bilibili://im/notifications`、`bilibili://im/notification/reply_old`
 :::
 
@@ -316,7 +316,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / like”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / like”，类型为 原生。
 - 关联入口：`bilibili://im/notification/reply`
 :::
 
@@ -332,7 +332,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / like old”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / like old”，类型为 原生。
 - 关联入口：`bilibili://im/notification/at_old`、`bilibili://im/notifications`、`bilibili://im/notification/reply_old`
 :::
 
@@ -348,7 +348,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / like / 设置”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / like / 设置”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -364,7 +364,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / reply”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / reply”，类型为 原生。
 - 关联入口：`bilibili://im/notification/like`
 :::
 
@@ -380,7 +380,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / reply old”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / reply old”，类型为 原生。
 - 关联入口：`bilibili://im/notification/at_old`、`bilibili://im/notification/like_old`、`bilibili://im/notifications`
 :::
 
@@ -396,7 +396,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notification / reply / 设置”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notification / reply / 设置”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -412,7 +412,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notifications”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notifications”，类型为 原生。
 - 关联入口：`bilibili://im/notification/at_old`、`bilibili://im/notification/like_old`、`bilibili://im/notification/reply_old`
 :::
 
@@ -428,7 +428,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / notify message / business / panel”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / notify message / business / panel”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -444,7 +444,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / 偏好设置 / anti disturb”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / 偏好设置 / anti disturb”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -460,7 +460,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / 设置 / setting_type 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / 设置 / setting_type 参数”，类型为 原生。
 - 关联入口：`bilibili://link/im_sessions/{page_type}`、`bilibili://link/im_home`
 :::
 
@@ -470,13 +470,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://im/setting/{setting_type}" />
+<RouteActions route="bilibili://im/setting/{setting_type}" config-link="/config/bilibili-im-setting-setting_type" />
 
 ## `bilibili://im/setting/follow`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / 设置 / follow”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / 设置 / follow”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -492,7 +492,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“消息 / video preview”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“消息 / video preview”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

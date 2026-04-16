@@ -1,14 +1,14 @@
 # 前缀：article
 
-本页收录前缀 `article` 下的全部 bilibili 协议 路由，主要对应“专栏”相关页面、容器或业务入口。
+前缀 `article` 下的全部路由，主要归入“专栏”相关页面或入口。
 
-> 共 13 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`13`
 
 ## `bilibili://article/{cvId}`
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / cvId 参数”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“专栏 / cvId 参数”，类型为 网页。
 - 关联入口：`bilibili://article/v2/{cvId}`
 :::
 
@@ -18,13 +18,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://article/{cvId}" />
+<RouteActions route="bilibili://article/{cvId}" config-link="/config/bilibili-article-cvid" />
 
 ## `bilibili://article/category`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / 分区”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / 分区”，类型为 原生。
 - 关联入口：`bilibili://article/category/{categoryId}`、`bilibili://category/65541`、`bilibili://category/65541/0`
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / 分区 / categoryId 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / 分区 / categoryId 参数”，类型为 原生。
 - 关联入口：`bilibili://article/category`、`bilibili://category/65541`、`bilibili://category/65541/0`
 :::
 
@@ -50,13 +50,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://article/category/{categoryId}" />
+<RouteActions route="bilibili://article/category/{categoryId}" config-link="/config/bilibili-article-category-categoryid" />
 
 ## `bilibili://article/column-author-space-fragment`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / column author space fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / column author space fragment”，类型为 原生。
 - 关联入口：`bilibili://column/column-author-space`
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / column manager draft fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / column manager draft fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / column manager fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / column manager fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / editor”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“专栏 / editor”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / hotspots / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / hotspots / id 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -130,13 +130,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://article/hotspots/{id}" />
+<RouteActions route="bilibili://article/hotspots/{id}" config-link="/config/bilibili-article-hotspots-id" />
 
 ## `bilibili://article/manager/column`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / manager / column”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / manager / column”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / readlist / listId 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / readlist / listId 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -162,13 +162,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://article/readlist/{listId}" />
+<RouteActions route="bilibili://article/readlist/{listId}" config-link="/config/bilibili-article-readlist-listid" />
 
 ## `bilibili://article/report`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / report”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / report”，类型为 原生。
 - 关联入口：`bilibili://article/report/column-report-fragment`
 :::
 
@@ -184,7 +184,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / report / column report fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“专栏 / report / column report fragment”，类型为 原生。
 - 关联入口：`bilibili://article/report`
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“专栏 / v2 / cvId 参数”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“专栏 / v2 / cvId 参数”，类型为 网页。
 - 关联入口：`bilibili://article/{cvId}`
 :::
 
@@ -210,4 +210,4 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://article/v2/{cvId}" />
+<RouteActions route="bilibili://article/v2/{cvId}" config-link="/config/bilibili-article-v2-cvid" />

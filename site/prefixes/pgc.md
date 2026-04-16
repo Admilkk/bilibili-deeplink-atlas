@@ -1,14 +1,14 @@
 # 前缀：pgc
 
-本页收录前缀 `pgc` 下的全部 bilibili 协议 路由，主要对应“PGC”相关页面、容器或业务入口。
+前缀 `pgc` 下的全部路由，主要归入“PGC”相关页面或入口。
 
-> 共 47 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`47`
 
 ## `bilibili://pgc/bangumi_v2`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / bangumi v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / bangumi v2”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/cinema`、`bilibili://pgc/page/bangumi`、`bilibili://pgc/cinema_v2`、`bilibili://pgc/home`、`bilibili://pgc/cinema-tab`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 番剧 / index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 番剧 / index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / cinema v2”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / cinema v2”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/cinema`、`bilibili://pgc/page/bangumi`、`bilibili://pgc/bangumi_v2`、`bilibili://pgc/home`、`bilibili://pgc/cinema-tab`
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / cinema tab”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / cinema tab”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/cinema`、`bilibili://pgc/page/bangumi`、`bilibili://pgc/cinema_v2`、`bilibili://pgc/bangumi_v2`、`bilibili://pgc/home`
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / common / index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / common / index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 详情 / pop”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 详情 / pop”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 详情 / 网页”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 详情 / 网页”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / favorate / playlist”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / favorate / playlist”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -136,7 +136,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 收藏 / 番剧”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 收藏 / 番剧”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 收藏 / cinema”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 收藏 / cinema”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -168,7 +168,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 收藏 / playlist”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 收藏 / playlist”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -184,7 +184,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / guess follow / 番剧”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / guess follow / 番剧”，类型为 原生。
 - 关联入口：`bilibili://pgc/guess-follow/cinema`
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / guess follow / cinema”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / guess follow / cinema”，类型为 原生。
 - 关联入口：`bilibili://pgc/guess-follow/bangumi`
 :::
 
@@ -216,7 +216,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / 首页”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / 首页”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/cinema`、`bilibili://pgc/page/bangumi`、`bilibili://pgc/cinema_v2`、`bilibili://pgc/bangumi_v2`、`bilibili://pgc/cinema-tab`
 :::
 
@@ -232,7 +232,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -248,7 +248,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / landscape / match”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / landscape / match”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -264,7 +264,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / module / doc index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / module / doc index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -280,7 +280,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / module / fall / wid 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / module / fall / wid 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -290,13 +290,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://pgc/module/fall/{wid}" />
+<RouteActions route="bilibili://pgc/module/fall/{wid}" config-link="/config/bilibili-pgc-module-fall-wid" />
 
 ## `bilibili://pgc/module/movie-index`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / module / movie index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / module / movie index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -312,7 +312,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / module / tv index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / module / tv index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`
 :::
 
@@ -328,7 +328,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / module / variety index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / module / variety index”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/media-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -344,7 +344,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / newtimeline”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / newtimeline”，类型为 原生。
 - 关联入口：`bilibili://pgc/newtimeline/{timeline_type}`
 :::
 
@@ -360,7 +360,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / newtimeline / timeline_type 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / newtimeline / timeline_type 参数”，类型为 原生。
 - 关联入口：`bilibili://pgc/newtimeline`
 :::
 
@@ -370,13 +370,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://pgc/newtimeline/{timeline_type}" />
+<RouteActions route="bilibili://pgc/newtimeline/{timeline_type}" config-link="/config/bilibili-pgc-newtimeline-timeline_type" />
 
 ## `bilibili://pgc/page/bangumi`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / page / 番剧”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / page / 番剧”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/cinema`、`bilibili://pgc/cinema_v2`、`bilibili://pgc/bangumi_v2`、`bilibili://pgc/home`、`bilibili://pgc/cinema-tab`
 :::
 
@@ -392,7 +392,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / page / cinema”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / page / cinema”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/bangumi`、`bilibili://pgc/cinema_v2`、`bilibili://pgc/bangumi_v2`、`bilibili://pgc/home`、`bilibili://pgc/cinema-tab`
 :::
 
@@ -408,7 +408,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / page / media index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / page / media index”，类型为 原生。
 - 关联入口：`bilibili://pgc/module/variety-index`、`activity://bangumi/category-index`、`bilibili://pgc/index`、`bilibili://pgc/bangumi/index`、`bilibili://pgc/common/index`、`bilibili://pgc/module/movie-index`、`bilibili://pgc/module/doc-index`、`bilibili://pgc/module/tv-index`
 :::
 
@@ -424,7 +424,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / page / operation list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / page / operation list”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -440,7 +440,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / page / operation list content”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / page / operation list content”，类型为 原生。
 - 关联入口：`bilibili://pgc/partition/tab`
 :::
 
@@ -456,7 +456,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / partition / tab”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / partition / tab”，类型为 原生。
 - 关联入口：`bilibili://pgc/page/operation_list_content`
 :::
 
@@ -472,7 +472,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / quarter / 列表”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / quarter / 列表”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -488,7 +488,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / role detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / role detail”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -504,7 +504,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / season”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / season”，类型为 原生。
 - 关联入口：`bilibili://pgc/season/ep/{epid}`、`bilibili://bangumi/season/{season_id}`、`bilibili://bangumi`、`bilibili://pgc/season/{season_id}`
 :::
 
@@ -520,7 +520,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / season / season_id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / season / season_id 参数”，类型为 原生。
 - 关联入口：`bilibili://pgc/season`、`bilibili://pgc/season/ep/{epid}`、`bilibili://bangumi/season/{season_id}`、`bilibili://bangumi`
 :::
 
@@ -530,13 +530,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://pgc/season/{season_id}" />
+<RouteActions route="bilibili://pgc/season/{season_id}" config-link="/config/bilibili-pgc-season-season_id" />
 
 ## `bilibili://pgc/season/ep/{epid}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / season / ep / epid 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / season / ep / epid 参数”，类型为 原生。
 - 关联入口：`bilibili://pgc/season`、`bilibili://bangumi/season/{season_id}`、`bilibili://bangumi`、`bilibili://pgc/season/{season_id}`
 :::
 
@@ -546,13 +546,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://pgc/season/ep/{epid}" />
+<RouteActions route="bilibili://pgc/season/ep/{epid}" config-link="/config/bilibili-pgc-season-ep-epid" />
 
 ## `bilibili://pgc/tab/media-index`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / tab / media index”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / tab / media index”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -568,7 +568,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / choose”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / choose”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -584,7 +584,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / match”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / match”，类型为 原生。
 - 关联入口：`bilibili://pgc/theater/merge_room`
 :::
 
@@ -600,7 +600,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / merge room”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / merge room”，类型为 原生。
 - 关联入口：`bilibili://pgc/theater/match`
 :::
 
@@ -616,7 +616,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / room”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / room”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -632,7 +632,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / 搜索”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / 搜索”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -648,7 +648,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / theater / square”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / theater / square”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -664,7 +664,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / timeline”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / timeline”，类型为 原生。
 - 关联入口：`bilibili://pgc/timeline/{timeline_type}`、`activity://bangumi/newtimeline`
 :::
 
@@ -680,7 +680,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / timeline preference”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / timeline preference”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -696,7 +696,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / timeline / timeline_type 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / timeline / timeline_type 参数”，类型为 原生。
 - 关联入口：`bilibili://pgc/timeline`、`activity://bangumi/newtimeline`
 :::
 
@@ -706,13 +706,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://pgc/timeline/{timeline_type}" />
+<RouteActions route="bilibili://pgc/timeline/{timeline_type}" config-link="/config/bilibili-pgc-timeline-timeline_type" />
 
 ## `bilibili://pgc/together/change/room`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / together / change / room”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / together / change / room”，类型为 原生。
 - 关联入口：`bilibili://pgc/together/change/room/landscape`
 :::
 
@@ -728,7 +728,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / together / change / room / landscape”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / together / change / room / landscape”，类型为 原生。
 - 关联入口：`bilibili://pgc/together/change/room`
 :::
 
@@ -744,7 +744,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“PGC / togetherWatch / chat”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“PGC / togetherWatch / chat”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

@@ -5,6 +5,7 @@ const root = process.cwd();
 const dataPath = path.join(root, "data", "routes.json");
 const outDir = path.join(root, "site");
 const prefixesDir = path.join(outDir, "prefixes");
+const configDir = path.join(outDir, "config");
 
 const rows = JSON.parse(fs.readFileSync(dataPath, "utf8"));
 
@@ -195,10 +196,7 @@ function routeDescription(route, routeType) {
   });
   const core = segments.length ? segments.join(" / ") : "根路径";
   const typeText = { native: "原生", web: "网页", unknown: "未标注" }[routeType] || routeType;
-  if (scheme === "bilibili") {
-    return `这是一个哔哩哔哩协议路由，归入“${core}”相关能力，当前静态标记类型为 ${typeText}。`;
-  }
-  return `这是一个 Activity 路由，归入“${core}”相关能力，当前静态标记类型为 ${typeText}。`;
+  return `${scheme === "bilibili" ? "bilibili 协议" : "Activity"} 路由，归入“${core}”，类型为 ${typeText}。`;
 }
 
 function parameterLines(route) {
@@ -238,6 +236,13 @@ function sortRows(groupRows) {
 
 function routeCard(row) {
   const aliases = relatedEntries(row);
+  const params = extractParams(row.route);
+  const queryParams = [];
+  if (row.route === "bilibili://browser" || row.route === "activity://main/web") {
+    queryParams.push("url");
+  }
+  const needsConfig = params.length > 0 || queryParams.length > 0;
+  const configLink = needsConfig ? `/config/${slugify(row.route)}` : "";
   return [
     `## \`${row.route}\``,
     "",
@@ -253,7 +258,7 @@ function routeCard(row) {
     "",
     "### 快速操作",
     "",
-    `<RouteActions route="${row.route}" />`,
+    `<RouteActions route="${row.route}"${configLink ? ` config-link="${configLink}"` : ""} />`,
     ""
   ].join("\n");
 }
@@ -261,12 +266,12 @@ function routeCard(row) {
 function prefixIntro(prefix) {
   const label = prefix.startsWith("activity-") ? prefix.slice("activity-".length) : prefix;
   const target = humanize(label);
-  const kind = prefix.startsWith("activity-") ? "Activity" : "bilibili 协议";
-  return `本页收录前缀 \`${prefix}\` 下的全部 ${kind} 路由，主要对应“${target}”相关页面、容器或业务入口。`;
+  return `前缀 \`${prefix}\` 下的全部路由，主要归入“${target}”相关页面或入口。`;
 }
 
 cleanGeneratedContent(outDir);
 ensureDir(prefixesDir);
+ensureDir(configDir);
 
 const grouped = new Map();
 for (const row of rows) {
@@ -306,7 +311,7 @@ for (const [prefix, groupRows] of prefixEntries) {
     "",
     intro,
     "",
-    `> 共 ${uniqRows.length} 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。`,
+    `- 路由数：\`${uniqRows.length}\``,
     "",
     ...uniqRows.map(routeCard)
   ].join("\n");
@@ -315,6 +320,41 @@ for (const [prefix, groupRows] of prefixEntries) {
 }
 
 writeFile(path.join(outDir, "prefix-index.md"), prefixIndexLines.join("\n"));
+
+const configIndexLines = [
+  "# 配置",
+  "",
+  "这里收录需要填写参数后再唤起的路由配置页。",
+  ""
+];
+
+for (const row of sortRows(rows)) {
+  const pathParams = extractParams(row.route);
+  const queryParams = [];
+  if (row.route === "bilibili://browser" || row.route === "activity://main/web") {
+    queryParams.push("url");
+  }
+  if (!pathParams.length && !queryParams.length) continue;
+
+  const slug = slugify(row.route);
+  configIndexLines.push(`- [${row.route}](/config/${slug})`);
+
+  writeFile(path.join(configDir, `${slug}.md`), [
+    `# 配置：${row.route}`,
+    "",
+    `- 类型：\`${row.route_type}\``,
+    `- 说明：${routeDescription(row.route, row.route_type)}`,
+    "",
+    "<RouteConfig",
+    `  route="${row.route}"`,
+    `  :path-params='${JSON.stringify(pathParams)}'`,
+    `  :query-params='${JSON.stringify(queryParams)}'`,
+    "/>",
+    ""
+  ].join("\n"));
+}
+
+writeFile(path.join(configDir, "index.md"), configIndexLines.join("\n"));
 
 const totalBilibili = rows.filter((row) => row.route.startsWith("bilibili://")).length;
 const totalActivity = rows.filter((row) => row.route.startsWith("activity://")).length;
@@ -330,23 +370,15 @@ writeFile(path.join(outDir, "index.md"), [
   "",
   "hero:",
   "  name: \"Bilibili Deeplink Atlas\"",
-  "  text: \"可搜索、可直接唤起的哔哩哔哩路由文档站\"",
-  "  tagline: \"按前缀组织全部 bilibili:// 与 activity:// 路由，逐条提供说明、参数解释与一键打开能力。\"",
+  "  text: \"哔哩哔哩路由文档站\"",
+  "  tagline: \"按前缀整理 bilibili:// 与 activity:// 路由。\"",
   "  actions:",
   "    - theme: brand",
-  "      text: 打开前缀索引",
-  "      link: /prefix-index",
+      "      text: 打开前缀索引",
+      "      link: /prefix-index",
   "    - theme: alt",
-  "      text: 查看 browser 专题",
-  "      link: /browser-web",
-  "",
-  "features:",
-  "  - title: 面向人类阅读",
-  "    details: 每条路由都有单独条目，不需要再回看 JSON 或表格原始数据。",
-  "  - title: 站内搜索",
-  "    details: 使用本地搜索索引，可直接按前缀、路由名和参数名检索。",
-  "  - title: 直接唤起",
-  "    details: 条目内提供一键打开与复制 schema，适合快速验证路由行为。",
+      "      text: 查看 browser 专题",
+      "      link: /browser-web",
   "---",
   "",
   "## 当前快照",
@@ -354,7 +386,13 @@ writeFile(path.join(outDir, "index.md"), [
   `- 唯一路由模式数：\`${uniqueCount}\``,
   `- \`bilibili://\` 路由：\`${totalBilibili}\``,
   `- \`activity://\` 路由：\`${totalActivity}\``,
-  `- 路由类型统计：\`${JSON.stringify(routeTypeCounts)}\``
+  `- 路由类型统计：\`${JSON.stringify(routeTypeCounts)}\``,
+  "",
+  "## 导航",
+  "",
+  "- [前缀索引](/prefix-index)",
+  "- [配置](/config/)",
+  "- [browser 与 web 专题](/browser-web)"
 ].join("\n"));
 
 writeFile(path.join(outDir, "browser-web.md"), [

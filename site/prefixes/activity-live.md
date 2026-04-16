@@ -1,14 +1,14 @@
 # 前缀：activity-live
 
-本页收录前缀 `activity-live` 下的全部 Activity 路由，主要对应“直播”相关页面、容器或业务入口。
+前缀 `activity-live` 下的全部路由，主要归入“直播”相关页面或入口。
 
-> 共 8 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`8`
 
 ## `activity://live/all`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / all”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / all”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live card”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live card”，类型为 原生。
 - 关联入口：`bilibili://live/live_card`
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live announce edit”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live announce edit”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live area”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live area”，类型为 原生。
 - 关联入口：`bilibili://livearea`
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live area video list”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live area video list”，类型为 原生。
 - 关联入口：`bilibili://live/live_area`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live play together home”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live play together home”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live play together search”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live play together search”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个 Activity 路由，归入“直播 / live room”相关能力，当前静态标记类型为 原生。
+- 说明：Activity 路由，归入“直播 / live room”，类型为 原生。
 - 关联入口：`bilibili://live/{extra_room_id}`
 :::
 

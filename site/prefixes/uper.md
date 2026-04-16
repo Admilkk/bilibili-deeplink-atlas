@@ -1,14 +1,14 @@
 # 前缀：uper
 
-本页收录前缀 `uper` 下的全部 bilibili 协议 路由，主要对应“UP 主成长”相关页面、容器或业务入口。
+前缀 `uper` 下的全部路由，主要归入“UP 主成长”相关页面或入口。
 
-> 共 47 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`47`
 
 ## `bilibili://uper/ai_chapter`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai chapter”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai chapter”，类型为 原生。
 - 关联入口：`activity://uper/video_section/**`、`activity://uper/video_section`
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai collection / fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai collection / fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai play / fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai play / fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai story”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai story”，类型为 原生。
 - 关联入口：`activity://uper/ai_story_home/**`、`activity://uper/ai_story_home`
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai story create”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai story create”，类型为 原生。
 - 关联入口：`activity://uper/ai_story_create`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / ai story detail”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / ai story detail”，类型为 原生。
 - 关联入口：`activity://upper/ai_story_detail`
 :::
 
@@ -104,7 +104,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 相册 / fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 相册 / fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -120,7 +120,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / appTraffic”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / appTraffic”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -136,7 +136,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / capture / fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / capture / fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -152,7 +152,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / center plus”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / center plus”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -168,7 +168,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / collection / 列表”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / collection / 列表”，类型为 原生。
 - 关联入口：`activity://uper/collection/list`
 :::
 
@@ -184,7 +184,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / collection / 列表 / new”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / collection / 列表 / new”，类型为 原生。
 - 关联入口：`activity://uper/collection/list/new`
 :::
 
@@ -200,7 +200,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / collection / sort”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / collection / sort”，类型为 原生。
 - 关联入口：`activity://uper/collection/sort`
 :::
 
@@ -216,7 +216,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / collection / sort / custom”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / collection / sort / custom”，类型为 原生。
 - 关联入口：`activity://uper/collection/sort/custom`
 :::
 
@@ -232,7 +232,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / homevc”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / homevc”，类型为 原生。
 - 关联入口：`activity://uper/homevc-v4`、`bilibili://uper/homevc-v3`
 :::
 
@@ -248,7 +248,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / homevc v3”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / homevc v3”，类型为 原生。
 - 关联入口：`activity://uper/homevc-v4`、`bilibili://uper/homevc`
 :::
 
@@ -264,7 +264,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / join up / cooperate”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / join up / cooperate”，类型为 原生。
 - 关联入口：`activity://uper/join-up/**`、`activity://uper/join-up`
 :::
 
@@ -280,7 +280,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / king battle entrance”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / king battle entrance”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -296,7 +296,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / king honour / binding”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / king honour / binding”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -312,7 +312,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / live editor entrance”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / live editor entrance”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -328,7 +328,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / manuscript edit”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / manuscript edit”，类型为 原生。
 - 关联入口：`activity://uper/manuscript-edit-v5`、`activity://uper/manuscript-edit-v5/**`、`activity://uper/manuscript-edit`、`activity://uper/manuscript-edit/**`
 :::
 
@@ -344,7 +344,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / material / center”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / material / center”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -360,7 +360,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / material / hot terrier”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / material / hot terrier”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -376,7 +376,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / material / ip”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / material / ip”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -392,7 +392,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / material / theme”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / material / theme”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -408,7 +408,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / open publish”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / open publish”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -424,7 +424,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / add archive”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / add archive”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/add_archive/**`
 :::
 
@@ -440,7 +440,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / add archive / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / add archive / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/add_archive`
 :::
 
@@ -457,7 +457,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive entrance”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive entrance”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/archive_entrance/**`、`bilibili://uper/user_center/archive_entrance_new`、`bilibili://uper/user_center/archive_entrance_new/**`、`activity://uper/archive-entrance`、`activity://uper/archive-entrance/**`
 :::
 
@@ -473,7 +473,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive entrance new”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive entrance new”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/archive_entrance`、`bilibili://uper/user_center/archive_entrance/**`、`bilibili://uper/user_center/archive_entrance_new/**`、`activity://uper/archive-entrance`、`activity://uper/archive-entrance/**`
 :::
 
@@ -489,7 +489,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive entrance new / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive entrance new / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/archive_entrance`、`bilibili://uper/user_center/archive_entrance/**`、`bilibili://uper/user_center/archive_entrance_new`、`activity://uper/archive-entrance`、`activity://uper/archive-entrance/**`
 :::
 
@@ -506,7 +506,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive entrance / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive entrance / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/archive_entrance`、`bilibili://uper/user_center/archive_entrance_new`、`bilibili://uper/user_center/archive_entrance_new/**`、`activity://uper/archive-entrance`、`activity://uper/archive-entrance/**`
 :::
 
@@ -523,7 +523,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive error”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive error”，类型为 原生。
 - 关联入口：`activity://uper/problem_limit/**`、`activity://uper/problem_limit`
 :::
 
@@ -539,7 +539,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive list”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/manuscript-list`、`bilibili://uper/user_center/manuscript-list/**`、`activity://uper/manuscript-list`、`activity://uper/manuscript-list/**`、`bilibili://uper/user_center/archive_list/**`
 :::
 
@@ -555,7 +555,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / archive list / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / archive list / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/manuscript-list`、`bilibili://uper/user_center/manuscript-list/**`、`activity://uper/manuscript-list`、`activity://uper/manuscript-list/**`、`bilibili://uper/user_center/archive_list`
 :::
 
@@ -572,7 +572,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / bgm list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / bgm list”，类型为 原生。
 - 关联入口：`activity://uper/user_center/bgm_list`、`activity://uper/user_center/bgm_list/**`、`bilibili://uper/user_center/bgm_list/**`
 :::
 
@@ -588,7 +588,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / bgm list / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / bgm list / 后续子路径”，类型为 原生。
 - 关联入口：`activity://uper/user_center/bgm_list`、`activity://uper/user_center/bgm_list/**`、`bilibili://uper/user_center/bgm_list`
 :::
 
@@ -605,7 +605,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / draft”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / draft”，类型为 原生。
 - 关联入口：`activity://uper/user_center/draft`、`activity://uper/user_center/draft/**`、`bilibili://uper/user_center/draft/**`
 :::
 
@@ -621,7 +621,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / draft / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / draft / 后续子路径”，类型为 原生。
 - 关联入口：`activity://uper/user_center/draft`、`activity://uper/user_center/draft/**`、`bilibili://uper/user_center/draft`
 :::
 
@@ -638,7 +638,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / manuscript list”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / manuscript list”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/manuscript-list/**`、`activity://uper/manuscript-list`、`activity://uper/manuscript-list/**`、`bilibili://uper/user_center/archive_list`、`bilibili://uper/user_center/archive_list/**`
 :::
 
@@ -654,7 +654,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / manuscript list / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / manuscript list / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://uper/user_center/manuscript-list`、`activity://uper/manuscript-list`、`activity://uper/manuscript-list/**`、`bilibili://uper/user_center/archive_list`、`bilibili://uper/user_center/archive_list/**`
 :::
 
@@ -671,7 +671,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / music error”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / music error”，类型为 原生。
 - 关联入口：`activity://uper/problem_music/**`、`activity://uper/problem_music`
 :::
 
@@ -687,7 +687,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / open launch bili”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / open launch bili”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -703,7 +703,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / query progress”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / query progress”，类型为 原生。
 - 关联入口：`activity://uper/query_progress/**`、`activity://uper/query_progress`
 :::
 
@@ -719,7 +719,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / share archive edit”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / share archive edit”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -735,7 +735,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / 用户中心 / transcode error”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / 用户中心 / transcode error”，类型为 原生。
 - 关联入口：`activity://uper/problem_transcode/**`、`activity://uper/problem_transcode`
 :::
 
@@ -751,7 +751,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“UP 主成长 / video template list / fragment”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“UP 主成长 / video template list / fragment”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { computed } from "vue";
+import { withBase } from "vitepress";
 
 const props = defineProps<{
   route: string;
+  configLink?: string;
 }>();
 
-const encodedRoute = computed(() => encodeURIComponent(props.route));
 const openRoute = () => {
   window.location.href = props.route;
 };
@@ -24,7 +24,10 @@ const copyRoute = async () => {
     <button class="route-open" type="button" @click="openRoute">
       一键打开
     </button>
-    <button class="route-copy" type="button" :data-route="encodedRoute" @click="copyRoute">
+    <a v-if="configLink" class="route-config" :href="withBase(configLink)">
+      配置
+    </a>
+    <button class="route-copy" type="button" @click="copyRoute">
       复制 schema
     </button>
   </div>

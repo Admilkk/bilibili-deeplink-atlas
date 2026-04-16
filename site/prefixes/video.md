@@ -1,14 +1,14 @@
 # 前缀：video
 
-本页收录前缀 `video` 下的全部 bilibili 协议 路由，主要对应“视频”相关页面、容器或业务入口。
+前缀 `video` 下的全部路由，主要归入“视频”相关页面或入口。
 
-> 共 4 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`4`
 
 ## `bilibili://video/{id}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“视频 / id 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“视频 / id 参数”，类型为 原生。
 - 关联入口：`bilibili://story/{id}`
 :::
 
@@ -18,13 +18,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://video/{id}" />
+<RouteActions route="bilibili://video/{id}" config-link="/config/bilibili-video-id" />
 
 ## `bilibili://video/fullscreen/{aid}/{cid}`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“视频 / fullscreen / aid 参数 / cid 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“视频 / fullscreen / aid 参数 / cid 参数”，类型为 原生。
 - 关联入口：`bilibili://video/fullscreen/{aid}/{cid}/**`
 :::
 
@@ -35,13 +35,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://video/fullscreen/{aid}/{cid}" />
+<RouteActions route="bilibili://video/fullscreen/{aid}/{cid}" config-link="/config/bilibili-video-fullscreen-aid-cid" />
 
 ## `bilibili://video/fullscreen/{aid}/{cid}/**`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“视频 / fullscreen / aid 参数 / cid 参数 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“视频 / fullscreen / aid 参数 / cid 参数 / 后续子路径”，类型为 原生。
 - 关联入口：`bilibili://video/fullscreen/{aid}/{cid}`
 :::
 
@@ -53,13 +53,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://video/fullscreen/{aid}/{cid}/**" />
+<RouteActions route="bilibili://video/fullscreen/{aid}/{cid}/**" config-link="/config/bilibili-video-fullscreen-aid-cid" />
 
 ## `bilibili://video/player_web_dialog`
 
 ::: info 路由说明
 - 类型：`web`
-- 说明：这是一个哔哩哔哩协议路由，归入“视频 / player web dialog”相关能力，当前静态标记类型为 网页。
+- 说明：bilibili 协议 路由，归入“视频 / player web dialog”，类型为 网页。
 - 关联入口：无公开同组别名
 :::
 

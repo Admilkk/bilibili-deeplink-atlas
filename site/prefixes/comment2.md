@@ -1,14 +1,14 @@
 # 前缀：comment2
 
-本页收录前缀 `comment2` 下的全部 bilibili 协议 路由，主要对应“评论”相关页面、容器或业务入口。
+前缀 `comment2` 下的全部路由，主要归入“评论”相关页面或入口。
 
-> 共 7 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+- 路由数：`7`
 
 ## `bilibili://comment2/delete-history`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / delete history”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / delete history”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -24,7 +24,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / 详情”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / 详情”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -40,7 +40,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / 对话”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / 对话”，类型为 原生。
 - 关联入口：`bilibili://comment2/intent-dialogue`
 :::
 
@@ -56,7 +56,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / holder page”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / holder page”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -72,7 +72,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / intent dialogue”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / intent dialogue”，类型为 原生。
 - 关联入口：`bilibili://comment2/dialogue`
 :::
 
@@ -88,7 +88,7 @@
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / 列表 / 筛选 / name 参数”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / 列表 / 筛选 / name 参数”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 
@@ -98,13 +98,13 @@
 
 ### 快速操作
 
-<RouteActions route="bilibili://comment2/list/filter/{name}" />
+<RouteActions route="bilibili://comment2/list/filter/{name}" config-link="/config/bilibili-comment2-list-filter-name" />
 
 ## `bilibili://comment2/main`
 
 ::: info 路由说明
 - 类型：`native`
-- 说明：这是一个哔哩哔哩协议路由，归入“评论 / 主站”相关能力，当前静态标记类型为 原生。
+- 说明：bilibili 协议 路由，归入“评论 / 主站”，类型为 原生。
 - 关联入口：无公开同组别名
 :::
 

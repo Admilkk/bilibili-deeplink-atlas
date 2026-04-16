@@ -23,6 +23,7 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "前缀索引", link: "/prefix-index" },
+      { text: "配置", link: "/config/" },
       { text: "browser 专题", link: "/browser-web" }
     ],
     search: {
@@ -34,6 +35,7 @@ export default defineConfig({
         items: [
           { text: "首页", link: "/" },
           { text: "前缀索引", link: "/prefix-index" },
+          { text: "配置", link: "/config/" },
           { text: "browser 与 web 专题", link: "/browser-web" }
         ]
       },
