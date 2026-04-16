@@ -1,0 +1,230 @@
+# 前缀：login
+
+本页收录前缀 `login` 下的全部 bilibili 协议 路由，主要对应“登录”相关页面、容器或业务入口。
+
+> 共 14 条路由。点击条目中的“一键打开”即可尝试在当前设备上唤起哔哩哔哩。
+
+## `bilibili://login`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://login/**`、`activity://main/login`、`activity://main/login/**`、`activity://main/login-dialog`、`activity://main/login-dialog/**`
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login" />
+
+## `bilibili://login/**`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / 后续子路径”相关能力，当前静态标记类型为 原生。
+- 关联入口：`bilibili://login`、`activity://main/login`、`activity://main/login/**`、`activity://main/login-dialog`、`activity://main/login-dialog/**`
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+- `**`：表示该路由允许继续匹配后续子路径。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/**" />
+
+## `bilibili://login/fast`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / 快速”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/fast" />
+
+## `bilibili://login/fullscreen`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / fullscreen”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/fullscreen" />
+
+## `bilibili://login/fullscreen/countrycode/select`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / fullscreen / countrycode / select”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/fullscreen/countrycode/select" />
+
+## `bilibili://login/inner`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / inner”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/inner" />
+
+## `bilibili://login/origin`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / origin”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/origin" />
+
+## `bilibili://login/overseas_force`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / overseas force”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/overseas_force" />
+
+## `bilibili://login/quick`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / quick”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/quick" />
+
+## `bilibili://login/quick/bottomsheet`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / quick / bottomsheet”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/quick/bottomsheet" />
+
+## `bilibili://login/select_country_code`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / select country code”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/select_country_code" />
+
+## `bilibili://login/step_by_step/bottom_sheet`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / step by step / bottom sheet”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/step_by_step/bottom_sheet" />
+
+## `bilibili://login/step_by_step/sms`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / step by step / sms”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/step_by_step/sms" />
+
+## `bilibili://login/switch`
+
+::: info 路由说明
+- 类型：`native`
+- 说明：这是一个哔哩哔哩协议路由，归入“登录 / switch”相关能力，当前静态标记类型为 原生。
+- 关联入口：无公开同组别名
+:::
+
+### 参数说明
+
+- 无显式路径参数。
+
+### 快速操作
+
+<RouteActions route="bilibili://login/switch" />

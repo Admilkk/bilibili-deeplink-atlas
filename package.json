@@ -1,0 +1,15 @@
+{
+  "name": "bilibili-deeplink-atlas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "docs:build-content": "node scripts/build-site-content.mjs",
+    "docs:dev": "npm run docs:build-content && vitepress dev site",
+    "docs:build": "npm run docs:build-content && vitepress build site",
+    "docs:preview": "vitepress preview site"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
