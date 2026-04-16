@@ -6,23 +6,15 @@
 
 ## 阅读顺序
 
-1. [数据模型](./data-model.md)
+1. [前缀索引](./prefix-index.md)
 2. [路由关系说明](./route-relations.md)
-3. [前缀索引](./prefix-index.md)
-4. [`browser` 与通用 `web` 路由专题](./browser-web.md)
+3. [`browser` 与通用 `web` 路由专题](./browser-web.md)
 
 ## 文档分工
 
-- [数据模型](./data-model.md)：定义 `routes.json`、`routes.csv`、`summary.json` 中各字段的含义。
-- [路由关系说明](./route-relations.md)：解释“同一条路由块中的别名”“前缀分类”“路由类型”之间的对应关系。
 - [前缀索引](./prefix-index.md)：从 `route` 前缀角度浏览全量路由，并进入逐条说明页。
+- [路由关系说明](./route-relations.md)：解释“同一条路由块中的别名”“前缀分类”“路由类型”之间的对应关系。
 - [`browser` 与通用 `web` 路由专题](./browser-web.md)：针对 `bilibili://browser`、`activity://main/web` 和通用 web 容器链路做重点说明。
-
-## 与数据文件的关系
-
-- 原始提取结果在 [routes.json](../data/routes.json)。
-- 表格视图在 [routes.csv](../data/routes.csv)。
-- 聚合统计在 [summary.json](../data/summary.json)。
 
 ## 当前快照
 
