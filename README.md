@@ -1,13 +1,11 @@
 # bilibili-deeplink-atlas
 
-从哔哩哔哩 Android 客户端路由表中静态提取出的 deeplink 索引。
+一个部署到 GitHub Pages 的哔哩哔哩路由文档站。
 
-## 快速入口
+## 在线文档
 
-- [文档总览](./docs/index.md)
-- [路由关系说明](./docs/route-relations.md)
-- [`browser` 与通用 `web` 路由专题](./docs/browser-web.md)
-- [前缀索引](./docs/prefix-index.md)
+- 启用 GitHub Pages 后，站点地址为：
+- `https://admilkk.github.io/bilibili-deeplink-atlas/`
 
 ## 概览
 
@@ -29,11 +27,12 @@
 
 ## 文档结构
 
-- [docs/index.md](./docs/index.md)：手册首页与阅读顺序
-- [docs/prefix-index.md](./docs/prefix-index.md)：按前缀浏览全部路由
-- `docs/prefixes/*.md`：每个前缀下的逐条路由说明、参数说明与关联入口
-- [docs/route-relations.md](./docs/route-relations.md)：别名、前缀和类型关系
-- [docs/browser-web.md](./docs/browser-web.md)：`browser/main/web` 专题
+- 首页：站点总览、主要统计和快速入口
+- 前缀索引：按前缀浏览全部 `bilibili://` 与 `activity://` 路由
+- 前缀详情页：逐条展示路由说明、参数说明和关联入口
+- `browser` 专题页：集中说明网页容器相关路由
+- 搜索：可直接按前缀、路由名和参数名检索
+- 一键打开：在条目页直接尝试唤起对应 schema
 
 ## 重点专题
 
